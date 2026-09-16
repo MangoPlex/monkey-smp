@@ -1,9 +1,5 @@
 # Mods
 
-Monkey Modpack includes 187 mods and 7 resource packs for Minecraft 26.2 with Fabric Loader 0.19.5.
-
-Environment indicates where each mod is required.
-
 ## Gameplay
 
 ### RPG
@@ -13,11 +9,11 @@ Environment indicates where each mod is required.
 | [Armory (RPG Series)](https://modrinth.com/mod/armory-rpg-series) | Both |
 | [Arsenal (RPG Series)](https://modrinth.com/mod/arsenal-rpg-series) | Both |
 | [Jewelry (RPG Series)](https://modrinth.com/mod/jewelry) | Both |
-| [Rogues & Warriors (RPG Series)](https://modrinth.com/mod/rogues-and-warriors) | Both |
-| [Wizards (RPG Series)](https://modrinth.com/mod/wizards) | Both |
 | [Paladins & Priests (RPG Series)](https://modrinth.com/mod/paladins-and-priests) | Both |
 | [Relics (RPG Series)](https://modrinth.com/mod/relics-rpg) | Both |
+| [Rogues & Warriors (RPG Series)](https://modrinth.com/mod/rogues-and-warriors) | Both |
 | [Skill Tree (RPG Series)](https://modrinth.com/mod/skill-tree) | Both |
+| [Wizards (RPG Series)](https://modrinth.com/mod/wizards) | Both |
 
 ### Combat
 | Mod Name | Environment |
@@ -31,8 +27,45 @@ Environment indicates where each mod is required.
 ### Structures
 | Mod Name | Environment |
 |---|:---:|
-| [Gazebos](https://modrinth.com/mod/gazebos) | Both |
-| [Village Taverns](https://modrinth.com/mod/village-taverns) | Both |
+| [Gazebos (RPG Series)](https://modrinth.com/mod/gazebos) | Both |
+| [Village Taverns (RPG Series)](https://modrinth.com/mod/village-taverns) | Both |
+
+------------------
+## Performance / Bugfixes
+| Mod Name | Environment |
+|---|:---:|
+| [Alternate Current](https://modrinth.com/mod/alternate-current) | Both |
+| [Better Block Entities](https://modrinth.com/mod/better-block-entities) | Client |
+| [BetterGrassify](https://modrinth.com/mod/bettergrassify) | Client |
+| [Chunky](https://modrinth.com/mod/chunky) | Both |
+| [Concurrent Chunk Management Engine (Fabric)](https://modrinth.com/mod/c2me-fabric) | Both |
+| [Cubes Without Borders](https://modrinth.com/mod/cubes-without-borders) | Client |
+| [Debugify](https://modrinth.com/mod/debugify) | Both |
+| [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) | Client |
+| [Entity Culling](https://modrinth.com/mod/entityculling) | Client |
+| [Fast Noise](https://modrinth.com/mod/zfastnoise) | Both |
+| [FerriteCore](https://modrinth.com/mod/ferrite-core) | Both |
+| [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast) | Client |
+| [Ixeris](https://modrinth.com/mod/ixeris) | Client |
+| [Krypton](https://modrinth.com/mod/krypton) | Both |
+| [Lithium](https://modrinth.com/mod/lithium) | Both |
+| [Make Bubbles Pop](https://modrinth.com/mod/make_bubbles_pop) | Client |
+| [ModernFix-mVUS](https://modrinth.com/mod/modernfix-mvus) | Both |
+| [More Culling](https://modrinth.com/mod/moreculling) | Client |
+| [Neruina - Ticking Entity Fixer](https://modrinth.com/mod/neruina) | Both |
+| [NetherPortalFix](https://modrinth.com/mod/netherportalfix) | Both |
+| [Packet Fixer](https://modrinth.com/mod/packet-fixer) | Both |
+| [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) | Client |
+| [ScalableLux](https://modrinth.com/mod/scalablelux) | Both |
+| [ServerCore](https://modrinth.com/mod/servercore) | Both |
+| [Sodium](https://modrinth.com/mod/sodium) | Client |
+| [Sodium Extra](https://modrinth.com/mod/sodium-extra) | Client |
+| [Sodium Shadowy Path Blocks (SSPB)](https://modrinth.com/mod/sodium-shadowy-path-blocks) | Client |
+| [spark](https://modrinth.com/mod/spark) | Both |
+| [Sparse Structures](https://modrinth.com/mod/sparsestructures) | Both |
+| [Structure Layout Optimizer](https://modrinth.com/mod/structure-layout-optimizer) | Both |
+| [Very Many Players (Fabric)](https://modrinth.com/mod/vmp-fabric) | Both |
+| [XXL Packets](https://modrinth.com/mod/xxl-packets) | Both |
 
 ------------------
 ## Library
@@ -42,32 +75,39 @@ Environment indicates where each mod is required.
 |---|:---:|
 | [Fabric API](https://modrinth.com/mod/fabric-api) | Both |
 
+### Common
+| Mod Name | Environment |
+|---|:---:|
+| [Balm](https://modrinth.com/mod/balm) | Both |
+| [Resourceful Lib](https://modrinth.com/mod/resourceful-lib) | Both |
+
 ### Game Modifications
 | Mod Name | Environment |
 |---|:---:|
 | [Bundle API](https://modrinth.com/mod/bundle-api) | Both |
-| [Structure Pool API](https://modrinth.com/mod/structure-pool-api) | Both |
 | [Critical Strike](https://modrinth.com/mod/critical-strike) | Both |
+| [Structure Pool API](https://modrinth.com/mod/structure-pool-api) | Both |
 
 ### Game Mechanics
 | Mod Name | Environment |
 |---|:---:|
 | [Armor Model API](https://modrinth.com/mod/armor-model-api) | Both |
+| [Player Animation Library](https://modrinth.com/mod/player-animation-library) | Both |
+| [Pufferfish's Skills](https://modrinth.com/mod/skills) | Both |
 | [Ranged Weapon API](https://modrinth.com/mod/ranged-weapon-api) | Both |
+| [Runes](https://modrinth.com/mod/runes) | Both |
 | [Spell Engine](https://modrinth.com/mod/spell-engine) | Both |
 | [Spell Power Attributes](https://modrinth.com/mod/spell-power) | Both |
-| [Player Animation Library](https://modrinth.com/mod/player-animation-library) | Both |
 | [Trinkets Updated](https://modrinth.com/mod/trinkets-updated) | Both |
-| [Runes](https://modrinth.com/mod/runes) | Both |
-| [Pufferfish's Skills](https://modrinth.com/mod/skills) | Both |
 
 ### Configurations
 | Mod Name | Environment |
 |---|:---:|
 | [Cloth Config API](https://modrinth.com/mod/cloth-config) | Both |
-
-
-
+| [Configurable](https://modrinth.com/mod/configurable) | Both |
+| [Configured Defaults](https://modrinth.com/mod/configured-defaults) | Both |
+| [Resourceful Config](https://modrinth.com/mod/resourceful-config) | Both |
+| [ZConfig](https://modrinth.com/mod/zconfig) | Both |
 
 ####################
 
@@ -76,9 +116,7 @@ Environment indicates where each mod is required.
 | Mod Name | Environment |
 |---|:---:|
 | [Comforts](https://modrinth.com/mod/comforts) | Both |
-| [Explorer's Compass](https://modrinth.com/mod/explorers-compass) | Both |
 | [More Totems of Undying](https://modrinth.com/mod/more-totems-of-undying) | Both |
-| [Nature's Compass](https://modrinth.com/mod/natures-compass) | Both |
 
 ### Adventures
 
@@ -167,8 +205,6 @@ Environment indicates where each mod is required.
 | Mod Name | Environment |
 |---|:---:|
 | [Bookshelf](https://modrinth.com/mod/bookshelf-lib) | Both |
-| [Configurable](https://modrinth.com/mod/configurable) | Both |
-| [Configured Defaults](https://modrinth.com/mod/configured-defaults) | Both |
 | [Cut Through](https://modrinth.com/mod/cut-through) | Client |
 | [Dungeons and Taverns Woodland Mansion Overhaul](https://modrinth.com/mod/dungeons-and-taverns-woodland-mansion-overhaul) | Both |
 | [GlitchCore](https://modrinth.com/mod/glitchcore) | Both |
@@ -179,7 +215,7 @@ Environment indicates where each mod is required.
 | [RightClickHarvest](https://modrinth.com/mod/rightclickharvest) | Both |
 | [SeasonHud-Fabric](https://modrinth.com/mod/seasonhud-fabric) | Both |
 | [Snow Under Trees (Fabric)](https://modrinth.com/mod/snow-under-trees-remastered) | Both |
-| [Sparse Structures](https://modrinth.com/mod/sparsestructures) | Both |
+
 | [Structory](https://modrinth.com/mod/structory) | Both |
 | [Tough As Nails](https://modrinth.com/mod/tough-as-nails) | Both |
 
@@ -191,7 +227,6 @@ Environment indicates where each mod is required.
 | [AppleSkin](https://modrinth.com/mod/appleskin) | Both |
 | [Better Compatibility Checker](https://modrinth.com/mod/better-compatibility-checker) | Both |
 | [Controlling](https://modrinth.com/mod/controlling) | Client |
-| [Cubes Without Borders](https://modrinth.com/mod/cubes-without-borders) | Client |
 | [Enchantment Descriptions](https://modrinth.com/mod/enchantment-descriptions) | Both |
 | [Jade 🔍](https://modrinth.com/mod/jade) | Both |
 | [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | Both |
@@ -259,46 +294,6 @@ Environment indicates where each mod is required.
 | [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered) | Both |
 | [Sounds](https://modrinth.com/mod/sound) | Client |
 
-## Performance / Bugfixes
-
-| Mod Name | Environment |
-|---|:---:|
-| [Alternate Current](https://modrinth.com/mod/alternate-current) | Both |
-| [BadOptimizations](https://modrinth.com/mod/badoptimizations) | Client |
-| [Better Block Entities](https://modrinth.com/mod/better-block-entities) | Client |
-| [Chunky](https://modrinth.com/mod/chunky) | Both |
-| [Clumps](https://modrinth.com/mod/clumps) | Both |
-| [Concurrent Chunk Management Engine (Fabric)](https://modrinth.com/mod/c2me-fabric) | Both |
-| [Debugify](https://modrinth.com/mod/debugify) | Both |
-| [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) | Client |
-| [Entity Culling](https://modrinth.com/mod/entityculling) | Client |
-| [Fast Noise](https://modrinth.com/mod/zfastnoise) | Both |
-| [FerriteCore](https://modrinth.com/mod/ferrite-core) | Both |
-| [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast) | Client |
-| [Krypton](https://modrinth.com/mod/krypton) | Both |
-| [Leaves Be Gone](https://modrinth.com/mod/leaves-be-gone) | Both |
-| [Lithium](https://modrinth.com/mod/lithium) | Both |
-| [Make Bubbles Pop](https://modrinth.com/mod/make_bubbles_pop) | Client |
-| [More Culling](https://modrinth.com/mod/moreculling) | Client |
-| [Neruina - Ticking Entity Fixer](https://modrinth.com/mod/neruina) | Both |
-| [NetherPortalFix](https://modrinth.com/mod/netherportalfix) | Both |
-| [Packet Fixer](https://modrinth.com/mod/packet-fixer) | Both |
-| [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) | Client |
-| [ServerCore](https://modrinth.com/mod/servercore) | Both |
-| [Sodium](https://modrinth.com/mod/sodium) | Client |
-| [Sodium Extra](https://modrinth.com/mod/sodium-extra) | Client |
-| [spark](https://modrinth.com/mod/spark) | Both |
-| [Structure Layout Optimizer](https://modrinth.com/mod/structure-layout-optimizer) | Both |
-| [Very Many Players (Fabric)](https://modrinth.com/mod/vmp-fabric) | Both |
-| [XXL Packets](https://modrinth.com/mod/xxl-packets) | Both |
-| [ZConfig](https://modrinth.com/mod/zconfig) | Both |
-
-## Performance / Bugfixes (Experimental)
-
-| Mod Name | Environment |
-|---|:---:|
-| [ScalableLux](https://modrinth.com/mod/scalablelux) | Both |
-
 ## Library
 
 ### Compatibility
@@ -315,8 +310,6 @@ Environment indicates where each mod is required.
 | Mod Name | Environment |
 |---|:---:|
 | [Almanac](https://modrinth.com/mod/almanac) | Both |
-
-| [Balm](https://modrinth.com/mod/balm) | Both |
 | [BCLib](https://modrinth.com/mod/bclib) | Both |
 | [Collective](https://modrinth.com/mod/collective) | Both |
 | [Common Network](https://modrinth.com/mod/common-network) | Both |
@@ -331,7 +324,7 @@ Environment indicates where each mod is required.
 | [PneumonoCore](https://modrinth.com/mod/pneumono_core) | Both |
 | [Prism](https://modrinth.com/mod/prism-lib) | Client |
 | [Puzzles Lib](https://modrinth.com/mod/puzzles-lib) | Both |
-| [Resourceful Lib](https://modrinth.com/mod/resourceful-lib) | Both |
+
 | [ShatterLib \| OctoLib](https://modrinth.com/mod/shatterbyte-lib) | Both |
 | [TCDCommons API](https://modrinth.com/mod/tcdcommons) | Both |
 | [World Weaver](https://modrinth.com/mod/worldweaver) | Both |
@@ -353,7 +346,6 @@ Environment indicates where each mod is required.
 | [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port) | Both |
 | [Fzzy Config](https://modrinth.com/mod/fzzy-config) | Both |
 | [Prickle](https://modrinth.com/mod/prickle) | Both |
-| [Resourceful Config](https://modrinth.com/mod/resourceful-config) | Both |
 | [SuperMartijn642's Config Lib](https://modrinth.com/mod/supermartijn642s-config-lib) | Both |
 | [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) | Both |
 

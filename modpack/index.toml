@@ -1,12 +1,73 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/c2me.toml"
+hash = "5109d1e1ba81d1b6af4b3f03d86d44151f8d33dd867d73c1a40ec2d38ce3ee47"
+
+[[files]]
+file = "config/chunky/config.json"
+hash = "27ccca9ff342fa09d4c7460e7858c78bdaad406cd5be8a420c4cac918a252e39"
+
+[[files]]
+file = "config/entityculling.json"
+hash = "e92e6772c4b6ec28b9c179c80831d56d11fc65064591424a120133d397b2ab49"
+
+[[files]]
+file = "config/moreculling.toml"
+hash = "a0b2444db1aa65997fd715d0c2a7753f5be302d1304364993260fb7489c1eddb"
+
+[[files]]
 file = "config/rpg_series/loot_equipment_v2.json"
 hash = "c8085623c5457313bfe75330787715c184838e4f57cbf1ef13f7f64eed802ba1"
 
 [[files]]
+file = "config/servercore/config.yml"
+hash = "a9db6231c85b1b8e1d461b07eaf51dde236b3573590ab8ec0821a69cfbac1424"
+
+[[files]]
+file = "config/servercore/optimizations.yml"
+hash = "b652ce75a0649d891aaa8351fb212801b8a15b701545760187032dfac24c00b9"
+
+[[files]]
+file = "config/sodium-extra-options.json"
+hash = "c7c0a76e8f653d5eb2f602becf3ce52a7f6d34ab88355ba6f261d75ca05aa79c"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "b1d2ad5dc4f214d41b8272e78b21362a7f30886147eaff644b1ff6b7293c1251"
+
+[[files]]
+file = "config/sparsestructures.json5"
+hash = "08a3d57a5bdaf1b82f64feac5a6fcfd0b56dc932f3a73369a8bed84fa3326a04"
+
+[[files]]
 file = "config/spell_engine/server.json5"
 hash = "8bae9757ef5b6a1ca51a142a98115717b2ce88f96d434a2955c1c3788d6613a2"
+
+[[files]]
+file = "config/structure_layout_optimizer.jsonc"
+hash = "38aecacfc5bf22babfce25af032e4dfcaa07d45be7f4cef4127c714dd9156b66"
+
+[[files]]
+file = "config/zfastnoise.mixin.toml"
+hash = "9bc4c9b0e2d6ff045ffcb6a68b548ff60ada666fdcf06d55f011287c2b938bc3"
+
+[[files]]
+file = "configureddefaults/config/iris.properties"
+hash = "3e95a6e59cc94b1048390cdf43b0f02f810c458bb267510c4193115350d1cbef"
+
+[[files]]
+file = "configureddefaults/config/vmp.properties"
+hash = "0bec59102ca88bd9e6c7273a6c68eb24a1ffb3b9b74daefed65b6f10f7b81677"
+
+[[files]]
+file = "configureddefaults/options.txt"
+hash = "2dd9b608c97477ce8b47b17589be3c9ec997c549c10f023284964bd01239f222"
+
+[[files]]
+file = "mods/alternate-current.pw.toml"
+hash = "04d6f05e38d0b56b0c4cf170349ea3b47dc3dd8afae8cf695ee9c63ef250f6c9"
+metafile = true
 
 [[files]]
 file = "mods/archers.pw.toml"
@@ -19,8 +80,23 @@ hash = "ef24491a2687d6b94618622939b5a44d2f0147ece830a51f2974866a6520d8e0"
 metafile = true
 
 [[files]]
+file = "mods/armory-rpg-series.pw.toml"
+hash = "05def5abb54d8e0a8b8a2718ab95b6826beaa5170ac6045b57712bbaf1a8171f"
+metafile = true
+
+[[files]]
 file = "mods/arsenal-rpg-series.pw.toml"
 hash = "b210fbf7e1ccd3b1fb715dbb02b558f8006e11416b6b52a58f524b58b9f8ad23"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "dc3e6a29e5dd7a2a5d416dfb8a296d08acbe140697949cf8963f0dc4785c6ace"
+metafile = true
+
+[[files]]
+file = "mods/better-block-entities.pw.toml"
+hash = "be94f4eee46fe7ef840dae32e1a749db33adf0a8bf9c34f0b5d922f7c4a8d00a"
 metafile = true
 
 [[files]]
@@ -29,8 +105,23 @@ hash = "229a486a5b8a4f151b921ca86c20b1c8821046219c7b9adb4809fb67f5148dee"
 metafile = true
 
 [[files]]
+file = "mods/bettergrassify.pw.toml"
+hash = "28c7599c8d0a72227dfeef91782e2e8faf2ad6339b30e9b5c846b28173cd32ff"
+metafile = true
+
+[[files]]
 file = "mods/bundle-api.pw.toml"
 hash = "1225bd3892be6154ba4289581da56d4f3fee2ff82901400d09ba976746a3f589"
+metafile = true
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "9a79a3cace0eb7f75a158582e805fa8d44409441dee9e6bcc83085d378ae30d4"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "8e4512056e448a6f3d1ac179961eb699c15fbe000284e0aee041b5971b417302"
 metafile = true
 
 [[files]]
@@ -44,8 +135,38 @@ hash = "39dcc584fa9a5c626166919070e03ed36cf83244c488e622a35eecb05640315f"
 metafile = true
 
 [[files]]
+file = "mods/configurable.pw.toml"
+hash = "d6a952ad2f9e427252a83b2b9a6e3a187ab338fa93f2a9f13be77b228c843b94"
+metafile = true
+
+[[files]]
+file = "mods/configured-defaults.pw.toml"
+hash = "28f531a4da935e67d84aeb223ae242aac82b976c7d62e683a99994c18c216d34"
+metafile = true
+
+[[files]]
 file = "mods/critical-strike.pw.toml"
 hash = "5863a6b2a5659448fe64ebc63803353c9dd78f9b044c042b7649e1daa280f66f"
+metafile = true
+
+[[files]]
+file = "mods/cubes-without-borders.pw.toml"
+hash = "ba10e235a3e4baac4862bb74a9b8b2fe7d4f2465620255195fb661a5e9c968d7"
+metafile = true
+
+[[files]]
+file = "mods/debugify.pw.toml"
+hash = "88aa13d41089c63696b88a60353b21156b67416affbdb1f162478b4771b76ff2"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "fe17d2b9b63e19e1818f55d9d376aaec0c42c9fd9812d9a2f6d1c4160abd161b"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "ef9b3d887d5b2b31809fda35b2bfa4d68346e4491d4b52128358c2ed77741b89"
 metafile = true
 
 [[files]]
@@ -54,13 +175,68 @@ hash = "37069be1c7d23b2fe463a98297d1f12eb8875f0d3be651a3a6cadc868752ab5a"
 metafile = true
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
+metafile = true
+
+[[files]]
 file = "mods/gazebos.pw.toml"
 hash = "58dfcc8d49b6010bbb100281bf1a10ae835d0908842794022c2e2ae0082003ac"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "2c5cb7b630f770c1cbd923135dca774367fa28dfdca7e3f9c38314729d566b38"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "40a8fc26af91b110b3af6758d7a5b120f5419f449d4c221abf2ac4d1749700f4"
+metafile = true
+
+[[files]]
 file = "mods/jewelry.pw.toml"
 hash = "450679f8c7ca0ef1850a41ee014637901d5a9e563bb61a485ee6ec21c4a32fe0"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "e922d7300eba8cfbd9aa31ba475cf6fcbcf11d74e89a0314ada18d58f08a2634"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "a5ee497ec151dd6e6b946091e12e2c56362e5c772c4b8ea175b2e81277cc708d"
+metafile = true
+
+[[files]]
+file = "mods/make_bubbles_pop.pw.toml"
+hash = "acd1212155bb96d96e07cfcf310f87be27b7981f7c68b8dca3db213e58585c5e"
+metafile = true
+
+[[files]]
+file = "mods/modernfix-mvus.pw.toml"
+hash = "ba528e27fc27b75a1997936bba35cf7d14c4d4d203aab5c067d5ec3ffcd0cfb6"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "a7038f7260b128480f8a62b12e5583240c2a94bd782c1b60e2356ec7a3843e4c"
+metafile = true
+
+[[files]]
+file = "mods/neruina.pw.toml"
+hash = "6cfb82178c57cd644dbe2d387e317fa39886973c3b54a03e2435f0540fb964d5"
+metafile = true
+
+[[files]]
+file = "mods/netherportalfix.pw.toml"
+hash = "60085f303f62f111c11d5afbe74acf988f8592834c2cb20987c21311c695dd98"
+metafile = true
+
+[[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "2e2086f80a46d334bb35d0c16aedfc8077e8992b763f1e84296d996baa2aca78"
 metafile = true
 
 [[files]]
@@ -79,8 +255,23 @@ hash = "f3296dde5ec7da4793e6462b6aecd43df90a1729b381f0ce1c99bb5e2c74e466"
 metafile = true
 
 [[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "4e51a0f3dfcf56385afb976565e76b1288e8d3ef3a7612bda72072df2e94e235"
+metafile = true
+
+[[files]]
 file = "mods/relics-rpg.pw.toml"
 hash = "ea68d37e175eba6699d6b821c10f7a14059ea9bddd5d3820c009a4466fc2f303"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "a8d92e3a2cf956cfa5932d3324a219729fe549fbcc3992c75b54d6b345178389"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "85abccaee90ea0b213687eaacafde09bcd30fb3fbcf6404e8e31245929f2e69b"
 metafile = true
 
 [[files]]
@@ -94,6 +285,16 @@ hash = "4ab877d041f20f1492d1ff83888c3dd7dfae67eae298049fca1ee0a00ffdf3a7"
 metafile = true
 
 [[files]]
+file = "mods/scalablelux.pw.toml"
+hash = "fda2f23dc5a311460c9a277922fbb94ccfd6adbde2b74cc395a467f51523b90f"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "43b4583ea1b8bc1dd8056086e4194c4f5e110a3359417c0ae9795b4f00c8529f"
+metafile = true
+
+[[files]]
 file = "mods/skill-tree.pw.toml"
 hash = "af33d9d1ea10ccd6e740a7ae819948a916fb4b55feddf756a8b65ec61d7d6db8"
 metafile = true
@@ -104,6 +305,31 @@ hash = "883ba4e68347aa7af4c8585e29f4845d51c23bb3d6bea1af409a30037df6614e"
 metafile = true
 
 [[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "ca02e4839cbd5d9371c4b5c1eb026f8931eec5550f03c1970a0e9c5e07253489"
+metafile = true
+
+[[files]]
+file = "mods/sodium-shadowy-path-blocks.pw.toml"
+hash = "145ed91c38778663d923bd1d08484e0a5da630c08d3c8dcf244391079322f9c2"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "e0274d780169d81e54561b2c71ed188d6864f6bdf0d73c70ec351d925a9b2e18"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "efab6a798140d1c23982bf99b27b32f1b79922ae4ac3d9564781cf65630a0d75"
+metafile = true
+
+[[files]]
+file = "mods/sparsestructures.pw.toml"
+hash = "e232f0db05753615d21e2516fa2a069ae53c0f43f4e9a00c1e3fef2ab972a3d9"
+metafile = true
+
+[[files]]
 file = "mods/spell-engine.pw.toml"
 hash = "6b07c6d86350ce1247d613f65c847c4784d3ffb5a53cb7954399b3a98d4a0663"
 metafile = true
@@ -111,6 +337,11 @@ metafile = true
 [[files]]
 file = "mods/spell-power.pw.toml"
 hash = "8853ace67ea75111fefee721fa7841bfec83bab715527b7b28a40221d466ffd0"
+metafile = true
+
+[[files]]
+file = "mods/structure-layout-optimizer.pw.toml"
+hash = "0a492579cdfcaa2033d698315ce3b9c1959b10841e38e1a0bb874a9e648838f1"
 metafile = true
 
 [[files]]
@@ -129,8 +360,28 @@ hash = "8fd470ef64e16a13f8b5aaca631d5347bfc106e5f696824ce20f967d02de0486"
 metafile = true
 
 [[files]]
+file = "mods/vmp-fabric.pw.toml"
+hash = "9d2d6dfc69a39361bb5d9e30c6c35c2ca7b8121ac0b66fad29bcfa81c40b0738"
+metafile = true
+
+[[files]]
 file = "mods/wizards.pw.toml"
 hash = "db97bf5694f305e7610ec8082def3ede7c4603cd8d0fbc3496cdb49e4fb95bf0"
+metafile = true
+
+[[files]]
+file = "mods/xxl-packets.pw.toml"
+hash = "4569552c042289be27ec6efc416061304ef408398e54e2e9e800fe101422a1dd"
+metafile = true
+
+[[files]]
+file = "mods/zconfig.pw.toml"
+hash = "8078347c8e2fd79bbb3e414fd36bc319e2d043f8d3b955c14f430fee0b5d6843"
+metafile = true
+
+[[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "0a0636ace08da4d39a638a3fde48b1c3b62fca5207c680000f3431d6bd509b24"
 metafile = true
 
 [[files]]
