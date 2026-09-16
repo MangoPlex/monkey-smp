@@ -1,0 +1,13 @@
+name = "AL's Creepers Revamped"
+filename = "AL's Creepers Revamped 2.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/d2srP5t3/versions/nhyEtMeW/AL%27s%20Creepers%20Revamped%202.0.zip"
+hash-format = "sha512"
+hash = "700e4684a24397f700836d346a952596b487e0b29118a46365cbb4f0c6b6ec9710d40888663a9b51d9ae0c01d96921c1ca0a6e5e53bee02de752f9b699fc6139"
+
+[update]
+[update.modrinth]
+mod-id = "d2srP5t3"
+version = "nhyEtMeW"

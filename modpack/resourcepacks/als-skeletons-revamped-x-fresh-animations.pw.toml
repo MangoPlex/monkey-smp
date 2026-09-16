@@ -1,0 +1,13 @@
+name = "AL's Skeletons Revamped x Fresh Animations"
+filename = "AL's Skeletons Revamped+FA 2.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Q1DELmr6/versions/DF6KhnuJ/AL%27s%20Skeletons%20Revamped%2BFA%202.0.zip"
+hash-format = "sha512"
+hash = "9321b380ac8a5ef602e42ef136964d4a162e6241121afad6dc743b3d7dd024f34d54c8a9689bc839b839951673a42f326b2cbbebf5d30baf51a76b17bcdd8f3b"
+
+[update]
+[update.modrinth]
+mod-id = "Q1DELmr6"
+version = "DF6KhnuJ"

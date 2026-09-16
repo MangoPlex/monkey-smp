@@ -1,0 +1,13 @@
+name = "AL's Armor Stands Revamped"
+filename = "AL's Armor Stands Revamped.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ik2kfsWC/versions/NNFbgODp/AL%27s%20Armor%20Stands%20Revamped.zip"
+hash-format = "sha512"
+hash = "7a9f383233c590b83cda77eb4d64d7f3949e8bb6015a4084256c1a8dfdcf1eef51ed780499b7620dd985d8fdd5dd9f36ec00e05cc85cf38e9e5244e67eba9c56"
+
+[update]
+[update.modrinth]
+mod-id = "Ik2kfsWC"
+version = "NNFbgODp"

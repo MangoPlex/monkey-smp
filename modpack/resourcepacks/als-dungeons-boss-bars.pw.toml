@@ -1,0 +1,13 @@
+name = "AL's Dungeons Boss Bars"
+filename = "AL's Dungeons Boss Bars 1.0.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZORRtxtz/versions/BjymQuOm/AL%27s%20Dungeons%20Boss%20Bars%201.0.2.zip"
+hash-format = "sha512"
+hash = "d306062090b5b4ea653705bf571cdb2cb5395f6a1db656ae0b078cd75ca9113350c7a5410dd24b9d9ec3e178134692a15b8a90bef59b06fd27188a6cfab6a94a"
+
+[update]
+[update.modrinth]
+mod-id = "ZORRtxtz"
+version = "BjymQuOm"
