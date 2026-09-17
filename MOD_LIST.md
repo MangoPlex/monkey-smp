@@ -20,6 +20,11 @@
 |---|:---:|
 | [Better Combat](https://modrinth.com/mod/better-combat) | Both |
 | [Combat Roll](https://modrinth.com/mod/combat-roll) | Both |
+| [Cut Through](https://modrinth.com/mod/cut-through) | Client |
+
+### Behavior
+| Mod Name | Environment |
+|---|:---:|
 
 ------------------
 ## Worldgen
@@ -31,12 +36,69 @@
 | [Village Taverns (RPG Series)](https://modrinth.com/mod/village-taverns) | Both |
 
 ------------------
+## Pretty
+
+### Rendering
+| Mod Name | Environment |
+|---|:---:|
+| [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) | Client |
+| [Continuity](https://modrinth.com/mod/continuity) | Client |
+| [Falling Leaves Plus](https://modrinth.com/mod/falling-leaves-plus) | Client |
+| [First-person Model](https://modrinth.com/mod/first-person-model) | Client |
+| [Wavey Capes](https://modrinth.com/mod/wavey-capes) | Client |
+
+### Decorations
+| Mod Name | Environment |
+|---|:---:|
+
+### UI
+| Mod Name | Environment |
+|---|:---:|
+| [Better Mount HUD](https://modrinth.com/mod/better-mount-hud) | Client |
+| [Colorful Hearts](https://modrinth.com/mod/colorful-hearts) | Client |
+| [Legendary Tooltips](https://modrinth.com/mod/legendary-tooltips) | Client |
+| [Paginated Advancements & Custom Frames](https://modrinth.com/mod/paginatedadvancements) | Client |
+
+### Shader
+| Mod Name | Environment |
+|---|:---:|
+| [Euphoria Patches](https://modrinth.com/mod/euphoria-patches) | Client |
+| [Iris Shaders](https://modrinth.com/mod/iris) | Client |
+| [LambDynamicLights - Dynamic Lights](https://modrinth.com/mod/lambdynamiclights) | Client |
+
+### Resourcepack Helpers
+| Mod Name | Environment |
+|---|:---:|
+| [Animatica Refabricated](https://modrinth.com/mod/animaticarefabricated) | Client |
+| [Entity Model Features (EMF)](https://modrinth.com/mod/entity-model-features) | Client |
+| [Entity Texture Features (ETF)](https://modrinth.com/mod/entitytexturefeatures) | Client |
+| [OptiGUI](https://modrinth.com/mod/optigui) | Client |
+| [Polytone](https://modrinth.com/mod/polytone) | Client |
+| [Puzzle](https://modrinth.com/mod/puzzle) | Client |
+
+------------------
+## Sound Improvement
+| Mod Name | Environment |
+|---|:---:|
+| [AmbientSounds](https://modrinth.com/mod/ambientsounds) | Client |
+| [Presence Footsteps](https://modrinth.com/mod/presence-footsteps) | Client |
+| [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered) | Both |
+| [Sounds](https://modrinth.com/mod/sound) | Client |
+
+------------------
+## Functional
+| Mod Name | Environment |
+|---|:---:|
+| [Mod Menu](https://modrinth.com/mod/modmenu) | Client |
+
+------------------
 ## Performance / Bugfixes
 | Mod Name | Environment |
 |---|:---:|
 | [Alternate Current](https://modrinth.com/mod/alternate-current) | Both |
 | [Better Block Entities](https://modrinth.com/mod/better-block-entities) | Client |
 | [BetterGrassify](https://modrinth.com/mod/bettergrassify) | Client |
+| [Boat Item View](https://modrinth.com/mod/boat-item-view) | Client |
 | [Chunky](https://modrinth.com/mod/chunky) | Both |
 | [Concurrent Chunk Management Engine (Fabric)](https://modrinth.com/mod/c2me-fabric) | Both |
 | [Cubes Without Borders](https://modrinth.com/mod/cubes-without-borders) | Client |
@@ -45,6 +107,7 @@
 | [Entity Culling](https://modrinth.com/mod/entityculling) | Client |
 | [Fast Noise](https://modrinth.com/mod/zfastnoise) | Both |
 | [FerriteCore](https://modrinth.com/mod/ferrite-core) | Both |
+| [Highlight](https://modrinth.com/mod/highlight) | Client |
 | [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast) | Client |
 | [Ixeris](https://modrinth.com/mod/ixeris) | Client |
 | [Krypton](https://modrinth.com/mod/krypton) | Both |
@@ -55,6 +118,7 @@
 | [Neruina - Ticking Entity Fixer](https://modrinth.com/mod/neruina) | Both |
 | [NetherPortalFix](https://modrinth.com/mod/netherportalfix) | Both |
 | [Packet Fixer](https://modrinth.com/mod/packet-fixer) | Both |
+| [Particle Core](https://modrinth.com/mod/particle-core) | Client |
 | [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) | Client |
 | [ScalableLux](https://modrinth.com/mod/scalablelux) | Both |
 | [ServerCore](https://modrinth.com/mod/servercore) | Both |
@@ -74,11 +138,16 @@
 | Mod Name | Environment |
 |---|:---:|
 | [Fabric API](https://modrinth.com/mod/fabric-api) | Both |
+| [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) | Both |
 
 ### Common
 | Mod Name | Environment |
 |---|:---:|
 | [Balm](https://modrinth.com/mod/balm) | Both |
+| [CreativeCore](https://modrinth.com/mod/creativecore) | Both |
+| [Iceberg](https://modrinth.com/mod/iceberg) | Both |
+| [MRU](https://modrinth.com/mod/mru) | Both |
+| [Puzzles Lib](https://modrinth.com/mod/puzzles-lib) | Both |
 | [Resourceful Lib](https://modrinth.com/mod/resourceful-lib) | Both |
 
 ### Game Modifications
@@ -86,6 +155,7 @@
 |---|:---:|
 | [Bundle API](https://modrinth.com/mod/bundle-api) | Both |
 | [Critical Strike](https://modrinth.com/mod/critical-strike) | Both |
+| [Not Enough Animations](https://modrinth.com/mod/not-enough-animations) | Client |
 | [Structure Pool API](https://modrinth.com/mod/structure-pool-api) | Both |
 
 ### Game Mechanics
@@ -106,8 +176,18 @@
 | [Cloth Config API](https://modrinth.com/mod/cloth-config) | Both |
 | [Configurable](https://modrinth.com/mod/configurable) | Both |
 | [Configured Defaults](https://modrinth.com/mod/configured-defaults) | Both |
+| [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port) | Both |
+| [Fzzy Config](https://modrinth.com/mod/fzzy-config) | Both |
 | [Resourceful Config](https://modrinth.com/mod/resourceful-config) | Both |
+| [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) | Both |
 | [ZConfig](https://modrinth.com/mod/zconfig) | Both |
+
+### Miscellaneous
+| Mod Name | Environment |
+|---|:---:|
+| [Prism](https://modrinth.com/mod/prism-lib) | Client |
+| [Searchables](https://modrinth.com/mod/searchables) | Client |
+| [Text Placeholder API](https://modrinth.com/mod/placeholder-api) | Both |
 
 ####################
 
@@ -205,7 +285,6 @@
 | Mod Name | Environment |
 |---|:---:|
 | [Bookshelf](https://modrinth.com/mod/bookshelf-lib) | Both |
-| [Cut Through](https://modrinth.com/mod/cut-through) | Client |
 | [Dungeons and Taverns Woodland Mansion Overhaul](https://modrinth.com/mod/dungeons-and-taverns-woodland-mansion-overhaul) | Both |
 | [GlitchCore](https://modrinth.com/mod/glitchcore) | Both |
 | [Let Me Despawn](https://modrinth.com/mod/lmd) | Both |
@@ -215,7 +294,6 @@
 | [RightClickHarvest](https://modrinth.com/mod/rightclickharvest) | Both |
 | [SeasonHud-Fabric](https://modrinth.com/mod/seasonhud-fabric) | Both |
 | [Snow Under Trees (Fabric)](https://modrinth.com/mod/snow-under-trees-remastered) | Both |
-
 | [Structory](https://modrinth.com/mod/structory) | Both |
 | [Tough As Nails](https://modrinth.com/mod/tough-as-nails) | Both |
 
@@ -233,11 +311,10 @@
 | [KleeSlabs](https://modrinth.com/mod/kleeslabs) | Both |
 | [Leave My Bars Alone](https://modrinth.com/mod/leave-my-bars-alone) | Client |
 | [Lightweight Inventory Sorting](https://modrinth.com/mod/lightweight-inventory-sorting) | Client |
-| [Mod Menu](https://modrinth.com/mod/modmenu) | Client |
 | [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks) | Client |
 | [No Chat Reports](https://modrinth.com/mod/no-chat-reports) | Both |
 | [Pick Up Notifier](https://modrinth.com/mod/pick-up-notifier) | Both |
-| [Polytone](https://modrinth.com/mod/polytone) | Client |
+
 | [Spyglass Improvements](https://modrinth.com/mod/spyglass-improvements) | Both |
 | [Unsafe World Random Access Detector](https://modrinth.com/mod/uwrad) | Both |
 | [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap) | Both |
@@ -245,33 +322,13 @@
 | [XaeroPlus](https://modrinth.com/mod/xaeroplus) | Client |
 
 ## Pretty
-
-| Mod Name | Environment |
-|---|:---:|
-| [Axolotl Bucket Fix](https://modrinth.com/mod/axolotl-bucket-fix) | Client |
-| [Better Advancements](https://modrinth.com/mod/better-advancements) | Client |
-| [Better Mount HUD](https://modrinth.com/mod/better-mount-hud) | Client |
-| [Colorful Hearts](https://modrinth.com/mod/colorful-hearts) | Client |
-| [Falling Leaves](https://modrinth.com/mod/fallingleaves) | Client |
-| [First-person Model](https://modrinth.com/mod/first-person-model) | Client |
-| [Highlight](https://modrinth.com/mod/highlight) | Client |
-| [Iris Shaders](https://modrinth.com/mod/iris) | Client |
-| [Legendary Tooltips](https://modrinth.com/mod/legendary-tooltips) | Client |
-| [OptiGUI](https://modrinth.com/mod/optigui) | Client |
-| [Particle Core](https://modrinth.com/mod/particle-core) | Client |
-| [Puzzle](https://modrinth.com/mod/puzzle) | Client |
 | [Resource Pack Overrides](https://modrinth.com/mod/resource-pack-overrides) | Client |
 
 ## Pretty (Optional)
 
 | Mod Name | Environment |
 |---|:---:|
-| [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) | Client |
-| [Continuity](https://modrinth.com/mod/continuity) | Client |
-| [Euphoria Patches](https://modrinth.com/mod/euphoria-patches) | Client |
-| [Not Enough Animations](https://modrinth.com/mod/not-enough-animations) | Client |
 | [Visuality](https://modrinth.com/mod/visuality) | Client |
-| [Wavey Capes](https://modrinth.com/mod/wavey-capes) | Client |
 
 ## Resource Packs
 
@@ -285,14 +342,6 @@
 | [AL's Scorpions & Crabs x Fresh Animations](https://modrinth.com/resourcepack/als-scorpions-crabs-x-fresh-animations) | 2.0 | Fresh Animations add-on | Client |
 | [AL's Skeletons Revamped x Fresh Animations](https://modrinth.com/resourcepack/als-skeletons-revamped-x-fresh-animations) | 2.0 | Fresh Animations add-on | Client |
 
-## Sound Improvement
-
-| Mod Name | Environment |
-|---|:---:|
-| [AmbientSounds](https://modrinth.com/mod/ambientsounds) | Client |
-| [Presence Footsteps](https://modrinth.com/mod/presence-footsteps) | Client |
-| [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered) | Both |
-| [Sounds](https://modrinth.com/mod/sound) | Client |
 
 ## Library
 
@@ -301,9 +350,6 @@
 | Mod Name | Environment |
 |---|:---:|
 | [Architectury API](https://modrinth.com/mod/architectury-api) | Both |
-| [Entity Model Features (EMF)](https://modrinth.com/mod/entity-model-features) | Client |
-| [Entity Texture Features (ETF)](https://modrinth.com/mod/entitytexturefeatures) | Client |
-| [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) | Both |
 
 ### Common
 
@@ -313,18 +359,12 @@
 | [BCLib](https://modrinth.com/mod/bclib) | Both |
 | [Collective](https://modrinth.com/mod/collective) | Both |
 | [Common Network](https://modrinth.com/mod/common-network) | Both |
-| [CreativeCore](https://modrinth.com/mod/creativecore) | Both |
 | [Cristel Lib](https://modrinth.com/mod/cristel-lib) | Both |
-| [Iceberg](https://modrinth.com/mod/iceberg) | Both |
 | [JamLib](https://modrinth.com/mod/jamlib) | Both |
 | [Lithostitched](https://modrinth.com/mod/lithostitched) | Both |
 | [MidnightLib](https://modrinth.com/mod/midnightlib) | Both |
-| [MRU](https://modrinth.com/mod/mru) | Both |
 | [oωo (owo-lib)](https://modrinth.com/mod/owo-lib) | Both |
 | [PneumonoCore](https://modrinth.com/mod/pneumono_core) | Both |
-| [Prism](https://modrinth.com/mod/prism-lib) | Client |
-| [Puzzles Lib](https://modrinth.com/mod/puzzles-lib) | Both |
-
 | [ShatterLib \| OctoLib](https://modrinth.com/mod/shatterbyte-lib) | Both |
 | [TCDCommons API](https://modrinth.com/mod/tcdcommons) | Both |
 | [World Weaver](https://modrinth.com/mod/worldweaver) | Both |
@@ -333,7 +373,6 @@
 
 | Mod Name | Environment |
 |---|:---:|
-
 | [Cardinal Components API](https://modrinth.com/mod/cardinal-components-api) | Both |
 | [Formations (Structure Library)](https://modrinth.com/mod/formations) | Both |
 | [Geckolib](https://modrinth.com/mod/geckolib) | Both |
@@ -343,15 +382,5 @@
 
 | Mod Name | Environment |
 |---|:---:|
-| [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port) | Both |
-| [Fzzy Config](https://modrinth.com/mod/fzzy-config) | Both |
 | [Prickle](https://modrinth.com/mod/prickle) | Both |
 | [SuperMartijn642's Config Lib](https://modrinth.com/mod/supermartijn642s-config-lib) | Both |
-| [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) | Both |
-
-### Miscellaneous
-
-| Mod Name | Environment |
-|---|:---:|
-| [Searchables](https://modrinth.com/mod/searchables) | Client |
-| [Text Placeholder API](https://modrinth.com/mod/placeholder-api) | Both |

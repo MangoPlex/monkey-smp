@@ -1,0 +1,16 @@
+{
+	"swordSwooshSoundEffect": {
+		"id": "swordSwoosh",
+		"soundEvent": "sounds:item.sword.swoosh",
+		"shouldPlay": false,
+		"pitch": 1.3,
+		"volume": 0.3
+	},
+	"bowPullSoundEffect": {
+		"id": "bowPull",
+		"soundEvent": "minecraft:item.crossbow.loading_middle",
+		"shouldPlay": false,
+		"pitch": 1.0,
+		"volume": 0.25
+	}
+}

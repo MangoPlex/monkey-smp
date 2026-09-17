@@ -6,10 +6,8 @@ entityShadows:false
 fov:0.575
 fovEffectScale:1.0
 graphicsPreset:"custom"
-prioritizeChunkUpdates:0
 textureFiltering:0
 mipmapLevels:2
-particles:1
 renderClouds:"fast"
 cloudRange:32
 renderDistance:16
@@ -18,6 +16,7 @@ weatherRadius:5
 advancedItemTooltips:true
 darkMojangStudiosBackground:true
 guiScale:3
+fullscreen:true
 joinedFirstServer:true
 onboardAccessibility:true
 operatorItemsTab:true

@@ -1,0 +1,5 @@
+{
+	"ignoreSystemChats": false,
+	"enableChatSoundCooldown": true,
+	"chatSoundCooldown": 0.75
+}

@@ -1,0 +1,13 @@
+name = "Colorful Hearts"
+filename = "colorfulhearts-fabric-26.2-26.2.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/wQfMUdZT/versions/vBMVpNFA/colorfulhearts-fabric-26.2-26.2.0.0.jar"
+hash-format = "sha512"
+hash = "291b9d5a2df71c45662b3440aa809432c353f4e7fb0f6fbec1427893c727efdb5ec1daccbc1f25d42a12e4daa7666bf7a5437d68a688e961eb23fbc931345ba6"
+
+[update]
+[update.modrinth]
+mod-id = "wQfMUdZT"
+version = "vBMVpNFA"

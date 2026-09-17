@@ -1,0 +1,13 @@
+name = "Falling Leaves Plus"
+filename = "FallingLeavesPlus-v26.2.1-mc26.2.x-Fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/PZyzzLjz/versions/f6epdUNn/FallingLeavesPlus-v26.2.1-mc26.2.x-Fabric.jar"
+hash-format = "sha512"
+hash = "c48feb47cd1cbde4892cd99812781e1e0d3fdca40d4d211400a640429532f29ea2e14df9558c537e298252eb007d380ec0f0c54af1a2f5d65e85931d648ee153"
+
+[update]
+[update.modrinth]
+mod-id = "PZyzzLjz"
+version = "f6epdUNn"

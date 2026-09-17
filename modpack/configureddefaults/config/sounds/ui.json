@@ -1,0 +1,7 @@
+{
+	"ignoreEmptyInventorySlots": true,
+	"ignoreEmptyHotbarSlots": true,
+	"itemSoundCooldown": 0.1,
+	"enableItemSoundCooldown": true,
+	"enableDynamicItemSounds": true
+}
