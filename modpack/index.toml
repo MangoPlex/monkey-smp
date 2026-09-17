@@ -6,7 +6,7 @@ hash = "4a1ae343dd0b667caedf52315b424f7698baeef34759d2e2b13a34e25f610df9"
 
 [[files]]
 file = "config/betterarcheology.jsonc"
-hash = "3308812ac04a345a093f7fdaf3891bfa21b633e9f50f586972e957417d3454c9"
+hash = "41fc1bc9b4ca987e72af2bb68395edc6cb00aeac02e65214af9afe27db79ad12"
 
 [[files]]
 file = "config/boatiview/client.toml"
@@ -285,6 +285,10 @@ file = "config/forgeconfigapiport.toml"
 hash = "2ba2d1b2585fea007f3db52468f72e1fad1a164973722ef526d23f1f4750acbf"
 
 [[files]]
+file = "config/guardvillagers.json"
+hash = "0bc83055f9dca36a035e34121976f0566feeaa1c3643f628190633ce9da3f18c"
+
+[[files]]
 file = "config/jade/jade.json"
 hash = "5b2313e1284638afa237bf9547a799131535822142d60722d5dbc8e11d662bc6"
 
@@ -342,7 +346,7 @@ hash = "b652ce75a0649d891aaa8351fb212801b8a15b701545760187032dfac24c00b9"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "08a3d57a5bdaf1b82f64feac5a6fcfd0b56dc932f3a73369a8bed84fa3326a04"
+hash = "64212ac9c5569cb88438d9d00daa30a6ce18b08926508142b3084a47ccb292e0"
 
 [[files]]
 file = "config/spell_engine/server.json5"
@@ -373,6 +377,18 @@ file = "config/toughasnails/thirst.toml"
 hash = "0fd670da180a045f9669525f761b3a38054e23c3886250a6f57ca49c395fc901"
 
 [[files]]
+file = "config/travelersbackpack-common.toml"
+hash = "d2a0de607b61390a0863897ebfe81f619628498f2f2f80dda1320e8ebca03816"
+
+[[files]]
+file = "config/travelersbackpack-server.toml"
+hash = "7bc6290f683f54b49733439bb3d4a370a833602899c4a931546c02f581bff950"
+
+[[files]]
+file = "config/travelertoolbelt-server.toml"
+hash = "525018cca64c6805ef03d3d0a0f4cd0a4b62c396969ec859e090da14d6395627"
+
+[[files]]
 file = "config/waystones-common.toml"
 hash = "5da0e10a0cabf8a389d9d7035e1b7e8e0f3ef79269d47f0a5cdbc901ed7fa5ed"
 
@@ -393,8 +409,16 @@ file = "configureddefaults/config/NoChatReports/NCR-Client.json"
 hash = "cea1c09dcd4b680d86e206260b46c0200f5cd0abf396d2b776552d01c46a2e01"
 
 [[files]]
+file = "configureddefaults/config/awesomedungeon.config.properties"
+hash = "37664b4df4d244c5a69f0b46a17fbf5d41c1347f02ad69f251fbe2755658d2d3"
+
+[[files]]
+file = "configureddefaults/config/awesomedungeonocean.config.properties"
+hash = "9cbb02187d1b3f8e902374c63f2c19a0d28b8dfa7297a0163b109fa9d1bc7b9f"
+
+[[files]]
 file = "configureddefaults/config/cardinal-components-api.properties"
-hash = "4d31f842c30e97c986147df4e872afe71ddcf0dd594000dbd841badc7a8eb975"
+hash = "8cbce11899627c784e149c76badfc3b52b805d85abd968dd8ce07c6ec49a4b1c"
 
 [[files]]
 file = "configureddefaults/config/cwb.json"
@@ -482,7 +506,24 @@ hash = "0bec59102ca88bd9e6c7273a6c68eb24a1ffb3b9b74daefed65b6f10f7b81677"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "0f36b923dfd68f1aaf293bca79ef1b0281817c8b6e7ccb2bcaa2b1bc620d59ab"
+hash = "cdcb3027bd3f62c89cea462094f8d7ae52c5fdd6eba6ecdafc8f86449034cffa"
+
+[[files]]
+file = "datapacks/edf-10k-dragons.pw.toml"
+hash = "29e19f4e8e096c6ccfccf3c7c20b4587c7b5c8f945ac183b5a9867ffa87a1491"
+metafile = true
+
+[[files]]
+file = "datapacks/edf-10k-dragons/data/endfight/function/config/health_custom.mcfunction"
+hash = "23e9ab068b4fae1864fc29059b8fa16c6771c313f7a55f021717b72feb0138fe"
+
+[[files]]
+file = "datapacks/edf-10k-dragons/data/minecraft/function/load.json"
+hash = "3fdc7f245e68fb5a1f3d1c89eda5da8d3b90ccff3ec9b515173e8eedb976c031"
+
+[[files]]
+file = "datapacks/edf-10k-dragons/pack.mcmeta"
+hash = "07523793ef06773601e46b72a82e5f0ec73a4933bdfdc8a22b7aa6b161380062"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -552,6 +593,16 @@ metafile = true
 [[files]]
 file = "mods/arsenal-rpg-series.pw.toml"
 hash = "b210fbf7e1ccd3b1fb715dbb02b558f8006e11416b6b52a58f524b58b9f8ad23"
+metafile = true
+
+[[files]]
+file = "mods/awesome-dungeon-edition-ocean.pw.toml"
+hash = "0d7027917a91e2fe80caaa45db9aceafbc812eaa39c41e6a2ffde37555d002dd"
+metafile = true
+
+[[files]]
+file = "mods/awesome-dungeon.pw.toml"
+hash = "9169bd9c9fb86d15b71573eb34a3f3587ec11ec2b4a9e8e94cc0bbb6cb45261e"
 metafile = true
 
 [[files]]
@@ -660,11 +711,6 @@ hash = "39dcc584fa9a5c626166919070e03ed36cf83244c488e622a35eecb05640315f"
 metafile = true
 
 [[files]]
-file = "mods/comforts.pw.toml"
-hash = "abe552b7276208dc4f6d6060d76de654af29ff046760fadbb9e658d2a948fd4a"
-metafile = true
-
-[[files]]
 file = "mods/configurable.pw.toml"
 hash = "d6a952ad2f9e427252a83b2b9a6e3a187ab338fa93f2a9f13be77b228c843b94"
 metafile = true
@@ -760,13 +806,23 @@ hash = "96f4549a875c31caaf5bbacd9d89df51ecbe13947378e45b92e5211a2798ca86"
 metafile = true
 
 [[files]]
+file = "mods/edf-remastered.pw.toml"
+hash = "aa893b812f2075ff2bf084ddb869f9355313b9d763fb679aca86ceff835d5d58"
+metafile = true
+
+[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "a75bdbac2acd303a8507a09da5d66d6451a147f1c6a967d81e3f0fb55084e828"
 metafile = true
 
 [[files]]
+file = "mods/endrem.pw.toml"
+hash = "349d78d681aefa3fa18f63f8c3a3555cba6b0824e84f8f35c6e53381d2a7a77a"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "4831ed5ddfada7c81d37b35378dc59bd10977348d5857b572f9323faabed1280"
+hash = "eb93ec10f105f09aa93d19506a2c42729a60779257cbe895e9ace3bb9bcbb0fc"
 metafile = true
 
 [[files]]
@@ -776,7 +832,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "653e30c3eac14ac13bbe781f789d691d1d443f00e422c2a4a413fd8089ae1591"
+hash = "d644e0a97d48c330bf59a5af1458623b56e1de995a306cf0f4fa757d4fa2d408"
 metafile = true
 
 [[files]]
@@ -885,13 +941,23 @@ hash = "0d36e2fbaffd99624bfcaf82729c586d6ad8e8c9cc25e7814b9af2e4b974e15e"
 metafile = true
 
 [[files]]
+file = "mods/illager-warship.pw.toml"
+hash = "f452ca431d232b0ec98a73668749be27cb24c3308cfb42b29875916760910ed6"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "2c5cb7b630f770c1cbd923135dca774367fa28dfdca7e3f9c38314729d566b38"
+hash = "fcd0dedf8a47b5e5e298cb9e26fe8f9bb3be8ac892e7ad238f8f781c0faaf2bd"
 metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "8c4fe8cfa2eb63ba2df48772ce83ede8b07620f44482447bda564dbd317d51a0"
+metafile = true
+
+[[files]]
+file = "mods/item-borders.pw.toml"
+hash = "664dbe9674af54485c9fd8c3546027449daf4fe48429e8b4136498866ac81f02"
 metafile = true
 
 [[files]]
@@ -901,7 +967,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "40a8fc26af91b110b3af6758d7a5b120f5419f449d4c221abf2ac4d1749700f4"
+hash = "cbe9b251b76991ec562675ed722bedfdca1d886e61c6aa206db965a899ef9817"
 metafile = true
 
 [[files]]
@@ -976,7 +1042,7 @@ metafile = true
 
 [[files]]
 file = "mods/mes-moogs-end-structures.pw.toml"
-hash = "87bf8865ddcb032edde17591db3dd8af9d8c5bcf7431b9a89b9df2b02d994bc6"
+hash = "66e27964c598c333a9082695989d293e554c42a8a295c6cfdc56685bb01d0f4e"
 metafile = true
 
 [[files]]
@@ -1001,7 +1067,7 @@ metafile = true
 
 [[files]]
 file = "mods/moogs-voyager-structures.pw.toml"
-hash = "1601689ecfe1435bc4850ec77a7fd88212980ba2d3c2da441ca25a3a8044a011"
+hash = "a95fa3172f3000710cfc1d17ebddf6b83d860610b96f2f70e8ff514deb3c17e0"
 metafile = true
 
 [[files]]
@@ -1200,6 +1266,11 @@ hash = "fda2f23dc5a311460c9a277922fbb94ccfd6adbde2b74cc395a467f51523b90f"
 metafile = true
 
 [[files]]
+file = "mods/sdob.pw.toml"
+hash = "bfd4ef09c5971bb7d01fd7db7a3e0f52231c3ce0db46fdda8f8e9a41f8eb2b47"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "18d343982316153f5b40b9d2e0e6ac3884b873774eec756ff67e891a4d3c22b9"
 metafile = true
@@ -1330,6 +1401,16 @@ hash = "0c96b5bd496fefece5503443a3c0801d751f644df0ec33854838cf48ac28138c"
 metafile = true
 
 [[files]]
+file = "mods/traveler-tool-belt.pw.toml"
+hash = "8a037855d7636af297c316f27e0c5e406506f79d134687ff6e4a43da5aa5a761"
+metafile = true
+
+[[files]]
+file = "mods/travelersbackpack.pw.toml"
+hash = "bcf12651e2f9a8efc66a56a8887c83f7e29a812f48416a8796b940519039d0e5"
+metafile = true
+
+[[files]]
 file = "mods/trek.pw.toml"
 hash = "856519bd5d0f0736c86a2ebbc833b8499075be4b1d6613988f4e5104ba2d9a32"
 metafile = true
@@ -1352,6 +1433,11 @@ metafile = true
 [[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "93e9e9d96cc2aceebf8625a7a893071f81011f54bf14e4ca802f4b41723184c0"
+metafile = true
+
+[[files]]
+file = "mods/visuality.pw.toml"
+hash = "7c2f942cee7e5708051dd0e2e46433e8a81bc9b210cc7d46bc461846f2268b0e"
 metafile = true
 
 [[files]]

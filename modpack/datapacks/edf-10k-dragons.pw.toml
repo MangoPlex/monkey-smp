@@ -1,0 +1,8 @@
+name = "EDF Remastered - 10000 HP Dragons"
+filename = "edf-10k-dragons"
+side = "both"
+
+[download]
+# This is a custom datapack, not downloaded from external source
+hash-format = "sha256"
+hash = "0"

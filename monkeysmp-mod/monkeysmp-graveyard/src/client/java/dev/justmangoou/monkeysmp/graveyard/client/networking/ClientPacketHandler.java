@@ -9,7 +9,7 @@ import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 public class ClientPacketHandler {
 	public static void registerReceivers() {
 		ClientPlayNetworking.registerGlobalReceiver(SyncConfigS2CPacket.TYPE, (payload, context) -> {
-			MonkeySMPGraveyardConfig.getConfig().graveConfig.retrieveMethods.onBreak = payload.gravesBreakable();
+			MonkeySMPGraveyardConfig.getConfig().graveConfig.allowBreakRetrieve = payload.gravesBreakable();
 			GraveBlockEntityRenderer.syncedGlowing = payload.glowingGraves();
 			GraveBlockEntityRenderer.syncedGlowingMaxDistance = payload.maxGraveGlowingDistance();
 			GraveBlockEntityRenderer.syncedDeathSightDistance = payload.deathSightDistance();

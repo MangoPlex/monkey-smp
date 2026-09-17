@@ -1,0 +1,13 @@
+name = "Spiral Dungeon of Babel | SDoB"
+filename = "sdob-1.1.0-universal.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5Zdqv8rG/versions/bSfufT1H/sdob-1.1.0-universal.jar"
+hash-format = "sha512"
+hash = "b87ebe2a8c97cefe541b53482ab68134b2dc16ce84e9e3fc16436cee2cd0e5f92d1e0f66681429d79ca6aa3f7b403af46a0935265bf9499261b323faed456244"
+
+[update]
+[update.modrinth]
+mod-id = "5Zdqv8rG"
+version = "bSfufT1H"

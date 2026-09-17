@@ -1,0 +1,13 @@
+name = "Illager Warship"
+filename = "illagerwarship-1.0.0 fabric 26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tUpIHo95/versions/XHS8rYwV/illagerwarship-1.0.0%20fabric%2026.2.jar"
+hash-format = "sha512"
+hash = "9aa18fe06965abc03d9a68cd4057618ee8303dfe346b17d1b2f8ef90d9ca6c4043ba9c530efc5b34f565c7e8456a60cbccfa03c7a9a4f5af364107d74f040772"
+
+[update]
+[update.modrinth]
+mod-id = "tUpIHo95"
+version = "XHS8rYwV"

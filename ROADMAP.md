@@ -1,8 +1,8 @@
 Tweak:
 boatview
 legendarytooltips
-notenoughanimations
-particle_core_disabled_optimizations_v2.json (if any rendering problem)
+item borders
 
-Let Me Despaw
-Visuality
+check that 10k dragons datapack
+
+Let Me despawn

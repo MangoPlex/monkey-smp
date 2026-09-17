@@ -27,7 +27,6 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
@@ -182,10 +181,6 @@ public class GraveBlock extends BaseEntityBlock implements SimpleWaterloggedBloc
 				player.sendSystemMessage(message);
 				return InteractionResult.SUCCESS;
 			}
-
-			// If it's not on the client side, player and world should safely be able to be cast into their serverside counterpart classes
-			if (config.graveConfig.retrieveMethods.onClick)
-				return graveComponent.claim((ServerPlayer) player, (ServerLevel) world, grave.getPreviousState(), pos, player.getItemInHand(hand));
 		}
 		return InteractionResult.FAIL;
 	}
@@ -210,39 +205,10 @@ public class GraveBlock extends BaseEntityBlock implements SimpleWaterloggedBloc
 	}
 
 	@Override
-	public void stepOn(Level world, BlockPos pos, BlockState state, Entity entity) {
-		if (!world.isClientSide() && entity instanceof ServerPlayer player) {
-			MonkeySMPGraveyardConfig.GraveConfig graveConfig = MonkeySMPGraveyardConfig.getConfig().graveConfig;
-			if (graveConfig.retrieveMethods.onStand || (graveConfig.retrieveMethods.onSneak && player.isShiftKeyDown())) {
-				if (world.getBlockEntity(pos) instanceof GraveBlockEntity grave) {
-					GraveComponent graveComponent = grave.getComponent();
-
-					if (graveComponent == null) {
-						// Check if it actually *is* not a personal grave, or if the component value is just missing
-						UUID graveId = grave.getGraveId();
-						if (graveId != null) {
-							Optional<GraveComponent> component = DeathInfoManager.get((ServerLevel) world).getGrave(graveId);
-							if (component.isPresent())
-								graveComponent = component.get();
-						}
-					}
-
-					if (graveComponent != null)  // Check needed again
-						if (graveComponent.getStatus() != GraveStatus.CLAIMED) {
-							graveComponent.claim(player, (ServerLevel) world, grave.getPreviousState(), pos, player.getMainHandItem());
-						}
-				}
-			}
-		}
-
-		super.stepOn(world, pos, state, entity);
-	}
-
-	@Override
 	public void playerDestroy(Level world, Player player, BlockPos pos, BlockState state, @Nullable BlockEntity blockEntity, ItemStack tool) {
 		MonkeySMPGraveyardConfig config = MonkeySMPGraveyardConfig.getConfig();
 		if (!world.isClientSide() && blockEntity instanceof GraveBlockEntity grave && grave.getComponent() != null && grave.getComponent().getStatus() != GraveStatus.CLAIMED) {
-			if (config.graveConfig.retrieveMethods.onBreak) {
+			if (config.graveConfig.allowBreakRetrieve) {
 				InteractionResult claimResult = grave.getComponent().claim((ServerPlayer) player, (ServerLevel) world, grave.getPreviousState(), pos, tool);
 				if (claimResult != InteractionResult.FAIL)
 					return;
@@ -270,7 +236,7 @@ public class GraveBlock extends BaseEntityBlock implements SimpleWaterloggedBloc
 	@Override
 	public float getDestroyProgress(BlockState state, Player player, BlockGetter world, BlockPos pos) {
 		if (!(world.getBlockEntity(pos) instanceof GraveBlockEntity grave) || !grave.isUnclaimed()
-				|| MonkeySMPGraveyardConfig.getConfig().graveConfig.retrieveMethods.onBreak) {
+				|| MonkeySMPGraveyardConfig.getConfig().graveConfig.allowBreakRetrieve) {
 			// Same calculations as done for "normal" blocks, except with the overwritten destroy speed of 0.8
 			float f = 0.8f;
 			int i = player.hasCorrectToolForDrops(state) ? 30 : 100;

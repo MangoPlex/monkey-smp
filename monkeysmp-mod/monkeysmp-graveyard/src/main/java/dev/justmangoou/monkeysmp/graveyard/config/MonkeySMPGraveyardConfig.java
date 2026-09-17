@@ -72,7 +72,6 @@ public class MonkeySMPGraveyardConfig implements ConfigData {
 		@Comment("Ignored if dropBehaviour is set to VANILLA")
 		@ConfigEntry.BoundedDiscrete(max = 100)
 		public int dropPercentage = 0;
-
 	}
 
 	public static class GraveConfig {
@@ -86,10 +85,9 @@ public class MonkeySMPGraveyardConfig implements ConfigData {
 		public String requiredItem = "monkeysmp:grave";
 		public int requiredItemCount = 1;
 		// require shovel to open
-		public boolean requireShovelToLoot = false;
-		// retrieve method (list with enums)
-		@ConfigEntry.Gui.CollapsibleObject
-		public RetrieveMethods retrieveMethods = new RetrieveMethods();
+		public boolean requireShovelToLoot = true;
+		// graves can only be retrieved by breaking them (with a shovel, if requireShovelToLoot is enabled)
+		public boolean allowBreakRetrieve = true;
 		// merge existing with claimed stacks for player
 		public boolean mergeStacksOnRetrieve = true;
 		// drop in inventory or on ground
@@ -165,13 +163,6 @@ public class MonkeySMPGraveyardConfig implements ConfigData {
 		public int maxBackupsPerPerson = 100;
 		public boolean dropFromOldestWhenDeleted = true;
 
-		public static class RetrieveMethods {
-			public boolean onClick = true;
-			public boolean onBreak = false;
-			public boolean onSneak = false;
-			public boolean onStand = false;
-		}
-
 		public static class GraveRobbing {
 			public boolean enabled = true;
 			public boolean killerSkipWaitTime = false;
@@ -219,10 +210,6 @@ public class MonkeySMPGraveyardConfig implements ConfigData {
 					add(new MapEntry.StringType("minecraft:the_end", "minecraft:end_stone"));
 					add(new MapEntry.StringType("misc", "minecraft:dirt"));
 			}};
-			@Comment("Defines whether the block under grave can be generated in claims where the player can NOT place blocks if protection api compat is enabled")
-			public boolean generateOnProtectedLand = false;
-			@Comment("Defines whether the block under grave can be generated in claims where the player CAN place blocks if protection api compat is enabled")
-			public boolean generateInOwnClaim = true;
 		}
 	}
 

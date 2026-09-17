@@ -1,0 +1,13 @@
+name = "Item Borders"
+filename = "ItemBorders-26.2-fabric-1.3.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/b1fMg6sH/versions/aSAkzGkZ/ItemBorders-26.2-fabric-1.3.2.jar"
+hash-format = "sha512"
+hash = "4b2102c0a8768fc5efc36f5a87f4048ebe5041bb3000f30614436e225dfb26fb1a2451363ec2d4e9e72751e270b5b83ebcfee8f78a7c479bbf0a7ffd46decf6d"
+
+[update]
+[update.modrinth]
+mod-id = "b1fMg6sH"
+version = "aSAkzGkZ"

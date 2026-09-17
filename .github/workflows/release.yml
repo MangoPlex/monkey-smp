@@ -1,0 +1,133 @@
+# Triggered by pushing a version tag (e.g. `v1.2.3`).
+#
+# 1. Builds the "monkeysmp" mod. The root project's jar already bundles
+#    monkeysmp-core and monkeysmp-graveyard inside it via Fabric's
+#    jar-in-jar mechanism (see META-INF/jars/ in the built jar), so it's
+#    the only artifact that needs to be distributed.
+# 2. Publishes that jar to a GitHub Release (tagged with the pushed tag),
+#    Modrinth, and CurseForge in one step via mc-publish.
+# 3. Points the modpack's packwiz entry at that GitHub release and commits
+#    the updated metadata back to the default branch.
+#
+# Required repository configuration (Settings > Secrets and variables > Actions):
+#   Secrets:   MODRINTH_TOKEN, CURSEFORGE_TOKEN
+#   Variables: MODRINTH_ID, CURSEFORGE_ID
+# Also make sure Settings > Actions > General > Workflow permissions is set to
+# "Read and write permissions", otherwise the release/commit/push steps will fail.
+
+name: release mod
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  publish-mod:
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: monkeysmp-mod
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v6
+
+      - name: determine mod version from tag
+        id: version
+        run: echo "version=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+
+      - name: validate gradle wrapper
+        uses: gradle/actions/wrapper-validation@v6
+
+      - name: setup jdk
+        uses: actions/setup-java@v5
+        with:
+          java-version: '25'
+          distribution: 'microsoft'
+
+      - name: make gradle wrapper executable
+        run: chmod +x ./gradlew
+
+      - name: build mod
+        run: ./gradlew build -Pversion=${{ steps.version.outputs.version }}
+
+      - name: publish to modrinth, curseforge and github releases
+        uses: Kira-NT/mc-publish@v3
+        with:
+          modrinth-id: ${{ vars.MODRINTH_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+          curseforge-id: ${{ vars.CURSEFORGE_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+
+          github-tag: ${{ github.ref_name }}
+          github-generate-changelog: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+          files: monkeysmp-mod/build/libs/*.jar
+
+          name: MonkeySMP ${{ steps.version.outputs.version }}
+          version: ${{ steps.version.outputs.version }}
+          version-type: release
+
+          java: 25
+          # fabric.mod.json also lists monkeysmp-core/monkeysmp-graveyard as
+          # dependencies, but those ship bundled inside this jar (jar-in-jar),
+          # not as separate listings, so dependencies are set explicitly here
+          # instead of letting mc-publish auto-read them from the metadata.
+          dependencies: fabric-api(required)
+
+  update-modpack:
+    needs: publish-mod
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: modpack
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v6
+
+      - name: setup go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      - name: install packwiz
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: point packwiz at the new github release
+        run: |
+          set -euo pipefail
+
+          if [ -f mods/monkeysmp.pw.toml ]; then
+            packwiz update monkeysmp -y
+          else
+            before=$(ls mods/*.pw.toml 2>/dev/null | sort)
+            packwiz github add "${{ github.repository }}" -y
+            after=$(ls mods/*.pw.toml | sort)
+            new_file=$(comm -13 <(printf '%s\n' "$before") <(printf '%s\n' "$after"))
+            mv "$new_file" mods/monkeysmp.pw.toml
+            sed -i 's/^name = .*/name = "MonkeySMP"/' mods/monkeysmp.pw.toml
+          fi
+
+          packwiz refresh
+
+      - name: commit and push modpack update
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mods/monkeysmp.pw.toml index.toml pack.toml
+          if git diff --cached --quiet; then
+            echo "No modpack changes to commit"
+          else
+            git commit -m "chore(modpack): update MonkeySMP to ${{ needs.publish-mod.outputs.version }} [skip ci]"
+            git push origin HEAD:${{ github.event.repository.default_branch }}
+          fi

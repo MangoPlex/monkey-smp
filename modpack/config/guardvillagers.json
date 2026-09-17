@@ -1,0 +1,12 @@
+{
+  "healthModifier": 100.0,
+  "speedModifier": 0.7,
+  "amountOfHealthRegenerated": 3.6,
+  "followRangeModifier": 36.0,
+  "guardAlwaysShield": true,
+  "friendlyFire": true,
+  "reputationRequirementToBeAttacked": 100,
+  "guardArrowsHurtVillagers": false,
+  "followHero": false,
+  "spawnChancePerVillager": 0.7
+}

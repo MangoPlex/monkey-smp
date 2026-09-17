@@ -48,6 +48,8 @@
 | [Easy Anvils](https://modrinth.com/mod/easy-anvils) | Both |
 | [Easy Magic](https://modrinth.com/mod/easy-magic) | Both |
 | [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage) | Both |
+| [Traveler's Backpack](https://modrinth.com/mod/travelersbackpack) | Both |
+| [Traveler Tool Belt](https://modrinth.com/mod/traveler-tool-belt) | Both |
 | [Vehicle Upgrade](https://modrinth.com/mod/vehicle-upgrade) | Both |
 | [Visual Workbench](https://modrinth.com/mod/visual-workbench) | Both |
 | [Waystones](https://modrinth.com/mod/waystones) | Both |
@@ -55,6 +57,7 @@
 ### Mobs
 | Mod Name | Environment |
 |---|:---:|
+| [Ender Dragon Fight Remastered](https://modrinth.com/mod/edf-remastered) | Both |
 | [Fish of Thieves](https://modrinth.com/mod/fish-of-thieves) | Both |
 | [Guard Villagers (Fabric/Quilt)](https://modrinth.com/mod/guard-villagers-(fabricquilt)) | Both |
 | [Illager Invasion](https://modrinth.com/mod/illager-invasion) | Both |
@@ -69,6 +72,7 @@
 |---|:---:|
 | [BetterEnd](https://modrinth.com/mod/betterend) | Both |
 | [BetterNether](https://modrinth.com/mod/betternether) | Both |
+| [End Remastered](https://modrinth.com/mod/endrem) | Both |
 | [Nullscape](https://modrinth.com/mod/nullscape) | Both |
 | [Tectonic](https://modrinth.com/mod/tectonic) | Both |
 | [Terralith](https://modrinth.com/mod/terralith) | Both |
@@ -77,6 +81,8 @@
 | Mod Name | Environment |
 |---|:---:|
 | [AdoraBuild: Structures](https://modrinth.com/mod/adorabuild-structures) | Both |
+| [Awesome Dungeon](https://modrinth.com/mod/awesome-dungeon) | Both |
+| [Awesome Dungeon Ocean](https://modrinth.com/mod/awesome-dungeon-edition-ocean) | Both |
 | [Better Archeology](https://modrinth.com/mod/better-archeology) | Both |
 | [ChoiceTheorem's Overhauled Village](https://modrinth.com/mod/ct-overhaul-village) | Both |
 | [Dungeons and Taverns](https://modrinth.com/mod/dungeons-and-taverns) | Both |
@@ -86,11 +92,13 @@
 | [Formations Nether](https://modrinth.com/mod/formations-nether) | Both |
 | [Formations Overworld](https://modrinth.com/mod/formations-overworld) | Both |
 | [Geophilic](https://modrinth.com/mod/geophilic) | Both |
+| [Illager Warship](https://modrinth.com/mod/illager-warship) | Both |
 | [MES - Moog's End Structures](https://modrinth.com/mod/mes-moogs-end-structures) | Both |
 | [MSS - Moog's Soaring Structures](https://modrinth.com/mod/mss-moogs-soaring-structures) | Both |
 | [MVS - Moog's Voyager Structures](https://modrinth.com/mod/moogs-voyager-structures) | Both |
 | [Repurposed Structures - Fabric](https://modrinth.com/mod/repurposed-structures-fabric) | Both |
 | [Repurposed Structures - Farmer's Delight Compat](https://modrinth.com/mod/repurposed-structures-farmers-delight-compat) | Both |
+| [Spiral Dungeon of Babel | SDoB](https://modrinth.com/mod/sdob) | Both |
 | [Structory](https://modrinth.com/mod/structory) | Both |
 | [Terraphilic*](https://modrinth.com/datapack/terraphilic) | Both |
 | [Towns and Towers](https://modrinth.com/mod/towns-and-towers) | Both |
@@ -106,14 +114,15 @@
 | [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) | Client |
 | [Continuity](https://modrinth.com/mod/continuity) | Client |
 | [Falling Leaves Plus](https://modrinth.com/mod/falling-leaves-plus) | Client |
+| [Item Borders](https://modrinth.com/mod/item-borders) | Client |
 | [Particle Effects](https://modrinth.com/mod/particle-effects) | Client |
+| [Visuality](https://modrinth.com/mod/visuality) | Client |
 | [Wavey Capes](https://modrinth.com/mod/wavey-capes) | Client |
 
 ### Decorations
 | Mod Name | Environment |
 |---|:---:|
 | [Beautify: Refabricated](https://modrinth.com/mod/beautify-refabricated) | Both |
-| [Comforts](https://modrinth.com/mod/comforts) | Both |
 | [Items Displayed [Fabric]](https://modrinth.com/mod/items-displayed) | Both |
 | [More Totems of Undying](https://modrinth.com/mod/more-totems-of-undying) | Both |
 | [Reconnectible Chains](https://modrinth.com/mod/reconnectible-chains) | Both |
@@ -302,8 +311,3 @@
 | [Prism](https://modrinth.com/mod/prism-lib) | Client |
 | [Searchables](https://modrinth.com/mod/searchables) | Client |
 | [Text Placeholder API](https://modrinth.com/mod/placeholder-api) | Both |
-
-
-
-
-

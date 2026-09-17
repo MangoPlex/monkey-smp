@@ -31,7 +31,7 @@ public class ServerPacketHandler {
 	public static void sendConfigSyncPacket(ServerPlayer player) {
 		MonkeySMPGraveyardConfig config = MonkeySMPGraveyardConfig.getConfig();
 		ServerPlayNetworking.send(player, new SyncConfigS2CPacket(
-				config.graveConfig.retrieveMethods.onBreak,
+				config.graveConfig.allowBreakRetrieve,
 				config.graveRendering.useGlowingEffect,
 				config.graveRendering.glowingDistance,
 				config.extraFeatures.deathSightEnchant.range));

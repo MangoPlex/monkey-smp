@@ -16,8 +16,6 @@ weatherRadius:5
 advancedItemTooltips:true
 darkMojangStudiosBackground:true
 guiScale:3
-fullscreen:true
-exclusiveFullscreen:true
 joinedFirstServer:true
 onboardAccessibility:true
 operatorItemsTab:true

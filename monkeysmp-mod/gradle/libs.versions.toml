@@ -20,14 +20,16 @@ minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
 fabric-loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric-loader" }
 fabric-api = { module = "net.fabricmc.fabric-api:fabric-api", version.ref = "fabric-api" }
 
+cca-base = { module = "org.ladysnake.cardinal-components-api:cardinal-components-base", version.ref = "cca" }
+cca-entity = { module = "org.ladysnake.cardinal-components-api:cardinal-components-entity", version.ref = "cca" }
+cca-level = { module = "org.ladysnake.cardinal-components-api:cardinal-components-level", version.ref = "cca" }
+
 cloth-config = { module = "me.shedaniel.cloth:cloth-config-fabric", version.ref = "cloth-config" }
 travelers-backpack = { module = "maven.modrinth:rlloIFEV", version.ref = "travelers-backpack" }
 spell-engine = { module = "maven.modrinth:XvoWJaA2", version.ref = "spell-engine" }
 unionlib = { module = "com.stereowalker.unionlib:UnionLib", version.ref = "unionlib" }
 trinkets = { module = "eu.pb4:trinkets", version.ref = "trinkets" }
-cca-base = { module = "org.ladysnake.cardinal-components-api:cardinal-components-base", version.ref = "cca" }
-cca-entity = { module = "org.ladysnake.cardinal-components-api:cardinal-components-entity", version.ref = "cca" }
-cca-level = { module = "org.ladysnake.cardinal-components-api:cardinal-components-level", version.ref = "cca" }
+
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit-platform" }
 

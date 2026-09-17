@@ -1,13 +1,12 @@
 {
 	"schemaVersion": 1,
-	"id": "monkey-smp",
+	"id": "monkeysmp",
 	"version": "${version}",
-	"name": "Monkey SMP",
+	"name": "MonkeySMP",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"JustMangoo"
 	],
-	"license": "CC0-1.0",
 	"environment": "*",
 	"depends": {
 		"fabricloader": ">=0.19.5",
