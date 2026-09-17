@@ -1,0 +1,13 @@
+name = "Repurposed Structures - Farmer's Delight Compat"
+filename = "repurposed_structures_farmers_delight_compat_v8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P5wB88AS/versions/rGUf2vp9/repurposed_structures_farmers_delight_compat_v8.jar"
+hash-format = "sha512"
+hash = "8023c0d48f2a06a13efcc61f8fdde85f1a97c0591d64ec3bc8f00e9dc703ea6d9726b2eb428160da0a72df3ede29be5d48d9414dbe51906013432a2cf2e7052b"
+
+[update]
+[update.modrinth]
+mod-id = "P5wB88AS"
+version = "rGUf2vp9"

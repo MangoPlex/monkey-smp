@@ -1,5 +1,7 @@
 # Mods
 
+*Note: Items marked with * are datapacks and must be manually added to the world's datapacks folder*
+
 ## Gameplay
 
 ### RPG
@@ -48,11 +50,11 @@
 | [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage) | Both |
 | [Vehicle Upgrade](https://modrinth.com/mod/vehicle-upgrade) | Both |
 | [Visual Workbench](https://modrinth.com/mod/visual-workbench) | Both |
+| [Waystones](https://modrinth.com/mod/waystones) | Both |
 
 ### Mobs
 | Mod Name | Environment |
 |---|:---:|
-| [ChoiceTheorem's Overhauled Village](https://modrinth.com/mod/ct-overhaul-village) | Both |
 | [Fish of Thieves](https://modrinth.com/mod/fish-of-thieves) | Both |
 | [Guard Villagers (Fabric/Quilt)](https://modrinth.com/mod/guard-villagers-(fabricquilt)) | Both |
 | [Illager Invasion](https://modrinth.com/mod/illager-invasion) | Both |
@@ -62,11 +64,37 @@
 ------------------
 ## Worldgen
 
+### Biomes
+| Mod Name | Environment |
+|---|:---:|
+| [BetterEnd](https://modrinth.com/mod/betterend) | Both |
+| [BetterNether](https://modrinth.com/mod/betternether) | Both |
+| [Nullscape](https://modrinth.com/mod/nullscape) | Both |
+| [Tectonic](https://modrinth.com/mod/tectonic) | Both |
+| [Terralith](https://modrinth.com/mod/terralith) | Both |
+
 ### Structures
 | Mod Name | Environment |
 |---|:---:|
-| [Gazebos (RPG Series)](https://modrinth.com/mod/gazebos) | Both |
-| [Village Taverns (RPG Series)](https://modrinth.com/mod/village-taverns) | Both |
+| [AdoraBuild: Structures](https://modrinth.com/mod/adorabuild-structures) | Both |
+| [Better Archeology](https://modrinth.com/mod/better-archeology) | Both |
+| [ChoiceTheorem's Overhauled Village](https://modrinth.com/mod/ct-overhaul-village) | Both |
+| [Dungeons and Taverns](https://modrinth.com/mod/dungeons-and-taverns) | Both |
+| [Dungeons and Taverns Woodland Mansion Overhaul](https://modrinth.com/mod/dungeons-and-taverns-woodland-mansion-overhaul) | Both |
+| [Explorations](https://modrinth.com/mod/explorations) | Both |
+| [Explorify](https://modrinth.com/mod/explorify) | Both |
+| [Formations Nether](https://modrinth.com/mod/formations-nether) | Both |
+| [Formations Overworld](https://modrinth.com/mod/formations-overworld) | Both |
+| [Geophilic](https://modrinth.com/mod/geophilic) | Both |
+| [MES - Moog's End Structures](https://modrinth.com/mod/mes-moogs-end-structures) | Both |
+| [MSS - Moog's Soaring Structures](https://modrinth.com/mod/mss-moogs-soaring-structures) | Both |
+| [MVS - Moog's Voyager Structures](https://modrinth.com/mod/moogs-voyager-structures) | Both |
+| [Repurposed Structures - Fabric](https://modrinth.com/mod/repurposed-structures-fabric) | Both |
+| [Repurposed Structures - Farmer's Delight Compat](https://modrinth.com/mod/repurposed-structures-farmers-delight-compat) | Both |
+| [Structory](https://modrinth.com/mod/structory) | Both |
+| [Terraphilic*](https://modrinth.com/datapack/terraphilic) | Both |
+| [Towns and Towers](https://modrinth.com/mod/towns-and-towers) | Both |
+| [Trek](https://modrinth.com/datapack/trek) | Both |
 
 
 ------------------
@@ -158,7 +186,9 @@
 |---|:---:|
 | [Better Compatibility Checker](https://modrinth.com/mod/better-compatibility-checker) | Both |
 | [No Chat Reports](https://modrinth.com/mod/no-chat-reports) | Both |
+| [Remove Stardust Labs Intro Message](https://modrinth.com/mod/remove-terralith-intro-message) | Both |
 | [Unsafe World Random Access Detector](https://modrinth.com/mod/uwrad) | Both |
+
 
 ------------------
 ## Performance / Bugfixes
@@ -207,6 +237,7 @@
 ### Runtimes
 | Mod Name | Environment |
 |---|:---:|
+| [Architectury API](https://modrinth.com/mod/architectury-api) | Both |
 | [Fabric API](https://modrinth.com/mod/fabric-api) | Both |
 | [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) | Both |
 
@@ -214,14 +245,22 @@
 | Mod Name | Environment |
 |---|:---:|
 | [Balm](https://modrinth.com/mod/balm) | Both |
+| [BCLib](https://modrinth.com/mod/bclib) | Both |
 | [CreativeCore](https://modrinth.com/mod/creativecore) | Both |
+| [Cristel Lib](https://modrinth.com/mod/cristel-lib) | Both |
 | [Delight Lib](https://modrinth.com/mod/delight-lib) | Both |
+| [GlitchCore](https://modrinth.com/mod/glitchcore) | Both |
 | [Iceberg](https://modrinth.com/mod/iceberg) | Both |
 | [JamLib](https://modrinth.com/mod/jamlib) | Both |
+| [Library Ferret](https://modrinth.com/mod/library-ferret) | Both |
 | [Lithostitched](https://modrinth.com/mod/lithostitched) | Both |
+| [MidnightLib](https://modrinth.com/mod/midnightlib) | Both |
+| [Moog's Structure Lib (moogs_structures)](https://modrinth.com/mod/moogs-structure-lib) | Both |
 | [MRU](https://modrinth.com/mod/mru) | Both |
 | [Puzzles Lib](https://modrinth.com/mod/puzzles-lib) | Both |
 | [Resourceful Lib](https://modrinth.com/mod/resourceful-lib) | Both |
+| [Shogi](https://modrinth.com/mod/shogi) | Both |
+| [World Weaver](https://modrinth.com/mod/worldweaver) | Both |
 
 ### Game Modifications
 | Mod Name | Environment |
@@ -234,6 +273,8 @@
 | Mod Name | Environment |
 |---|:---:|
 | [Armor Model API](https://modrinth.com/mod/armor-model-api) | Both |
+| [Cardinal Components API](https://modrinth.com/mod/cardinal-components-api) | Both |
+| [Formations (Structure Library)](https://modrinth.com/mod/formations) | Both |
 | [Player Animation Library](https://modrinth.com/mod/player-animation-library) | Both |
 | [Pufferfish's Skills](https://modrinth.com/mod/skills) | Both |
 | [Ranged Weapon API](https://modrinth.com/mod/ranged-weapon-api) | Both |
@@ -250,6 +291,7 @@
 | [Configured Defaults](https://modrinth.com/mod/configured-defaults) | Both |
 | [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port) | Both |
 | [Fzzy Config](https://modrinth.com/mod/fzzy-config) | Both |
+| [Prickle](https://modrinth.com/mod/prickle) | Both |
 | [Resourceful Config](https://modrinth.com/mod/resourceful-config) | Both |
 | [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) | Both |
 | [ZConfig](https://modrinth.com/mod/zconfig) | Both |
@@ -265,122 +307,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-####################
-
-
-## Worldgen
-
-### Biomes
-
-| Mod Name | Environment |
-|---|:---:|
-| [BetterEnd](https://modrinth.com/mod/betterend) | Both |
-| [BetterNether](https://modrinth.com/mod/betternether) | Both |
-| [Nullscape](https://modrinth.com/mod/nullscape) | Both |
-| [Tectonic](https://modrinth.com/mod/tectonic) | Both |
-| [Terralith](https://modrinth.com/mod/terralith) | Both |
-| [William Wythers' Overhauled Overworld](https://modrinth.com/mod/wwoo) | Both |
-
-### Structures
-
-| Mod Name | Environment |
-|---|:---:|
-| [AdoraBuild: Structures](https://modrinth.com/mod/adorabuild-structures) | Both |
-| [Better Archeology](https://modrinth.com/mod/better-archeology) | Both |
-| [Dungeons and Taverns](https://modrinth.com/mod/dungeons-and-taverns) | Both |
-| [Dungeons and Taverns Pillager Outpost Overhaul](https://modrinth.com/mod/dungeons-and-taverns-pillager-outpost-overhaul) | Both |
-| [Explorations](https://modrinth.com/mod/explorations) | Both |
-| [Explorify](https://modrinth.com/mod/explorify) | Both |
-| [Formations Nether](https://modrinth.com/mod/formations-nether) | Both |
-| [Formations Overworld](https://modrinth.com/mod/formations-overworld) | Both |
-| [Geophilic](https://modrinth.com/mod/geophilic) | Both |
-| [Incendium Legacy](https://modrinth.com/mod/incendium) | Both |
-| [MES - Moog's End Structures](https://modrinth.com/mod/mes-moogs-end-structures) | Both |
-| [MSS - Moog's Soaring Structures](https://modrinth.com/mod/mss-moogs-soaring-structures) | Both |
-| [MVS - Moog's Voyager Structures](https://modrinth.com/mod/moogs-voyager-structures) | Both |
-| [Repurposed Structures - Fabric](https://modrinth.com/mod/repurposed-structures-fabric) | Both |
-| [Repurposed Structures - Farmer's Delight Compat](https://modrinth.com/mod/repurposed-structures-farmers-delight-compat) | Both |
-| [Towns and Towers](https://modrinth.com/mod/towns-and-towers) | Both |
-
-## Helper
-
-| Mod Name | Environment |
-|---|:---:|
-| [Bookshelf](https://modrinth.com/mod/bookshelf-lib) | Both |
-| [Dungeons and Taverns Woodland Mansion Overhaul](https://modrinth.com/mod/dungeons-and-taverns-woodland-mansion-overhaul) | Both |
-| [GlitchCore](https://modrinth.com/mod/glitchcore) | Both |
-| [Let Me Despawn](https://modrinth.com/mod/lmd) | Both |
-| [Moog's Structure Lib (moogs_structures)](https://modrinth.com/mod/moogs-structure-lib) | Both |
-| [Remove Stardust Labs Intro Message](https://modrinth.com/mod/remove-terralith-intro-message) | Both |
-| [Structory](https://modrinth.com/mod/structory) | Both |
-
-## Pretty
-| [Resource Pack Overrides](https://modrinth.com/mod/resource-pack-overrides) | Client |
-
-## Pretty (Optional)
-
-| Mod Name | Environment |
-|---|:---:|
-| [Visuality](https://modrinth.com/mod/visuality) | Client |
-
-## Resource Packs
-
-| Resource Pack | Version | Role | Environment |
-|---|:---:|---|:---:|
-| [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) | 1.10.5 | Base | Client |
-| [AL's Armor Stands Revamped](https://modrinth.com/resourcepack/als-armor-stands-revamped) | 1.0 | Standalone | Client |
-| [AL's Creepers Revamped](https://modrinth.com/resourcepack/als-creepers-revamped) | 2.0 | Standalone | Client |
-| [AL's Dungeons Boss Bars](https://modrinth.com/resourcepack/als-dungeons-boss-bars) | 1.0.2 | Standalone | Client |
-| [AL's Enderman Revamped x Fresh Animations](https://modrinth.com/resourcepack/als-enderman-revamped-x-fresh-animations) | 2.0 | Fresh Animations add-on | Client |
-| [AL's Scorpions & Crabs x Fresh Animations](https://modrinth.com/resourcepack/als-scorpions-crabs-x-fresh-animations) | 2.0 | Fresh Animations add-on | Client |
-| [AL's Skeletons Revamped x Fresh Animations](https://modrinth.com/resourcepack/als-skeletons-revamped-x-fresh-animations) | 2.0 | Fresh Animations add-on | Client |
-
-
-## Library
-
-### Compatibility
-
-| Mod Name | Environment |
-|---|:---:|
-| [Architectury API](https://modrinth.com/mod/architectury-api) | Both |
-
-### Common
-
-| Mod Name | Environment |
-|---|:---:|
-| [Almanac](https://modrinth.com/mod/almanac) | Both |
-| [BCLib](https://modrinth.com/mod/bclib) | Both |
-| [Collective](https://modrinth.com/mod/collective) | Both |
-| [Common Network](https://modrinth.com/mod/common-network) | Both |
-| [Cristel Lib](https://modrinth.com/mod/cristel-lib) | Both |
-| [MidnightLib](https://modrinth.com/mod/midnightlib) | Both |
-| [oωo (owo-lib)](https://modrinth.com/mod/owo-lib) | Both |
-| [PneumonoCore](https://modrinth.com/mod/pneumono_core) | Both |
-| [ShatterLib \| OctoLib](https://modrinth.com/mod/shatterbyte-lib) | Both |
-| [TCDCommons API](https://modrinth.com/mod/tcdcommons) | Both |
-| [World Weaver](https://modrinth.com/mod/worldweaver) | Both |
-
-### Game Mechanics
-
-| Mod Name | Environment |
-|---|:---:|
-| [Cardinal Components API](https://modrinth.com/mod/cardinal-components-api) | Both |
-| [Formations (Structure Library)](https://modrinth.com/mod/formations) | Both |
-| [Geckolib](https://modrinth.com/mod/geckolib) | Both |
-| [TerraBlender](https://modrinth.com/mod/terrablender) | Both |
-
-### Config
-
-| Mod Name | Environment |
-|---|:---:|
-| [Prickle](https://modrinth.com/mod/prickle) | Both |
-| [SuperMartijn642's Config Lib](https://modrinth.com/mod/supermartijn642s-config-lib) | Both |

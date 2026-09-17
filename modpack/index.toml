@@ -5,6 +5,10 @@ file = "config/bcc-common.json"
 hash = "4a1ae343dd0b667caedf52315b424f7698baeef34759d2e2b13a34e25f610df9"
 
 [[files]]
+file = "config/betterarcheology.jsonc"
+hash = "3308812ac04a345a093f7fdaf3891bfa21b633e9f50f586972e957417d3454c9"
+
+[[files]]
 file = "config/boatiview/client.toml"
 hash = "319ab349738524938d689e29c1d6ad4634a2dce2b1e876d35944b724de172d2c"
 
@@ -25,6 +29,234 @@ file = "config/chunky/config.json"
 hash = "27ccca9ff342fa09d4c7460e7858c78bdaad406cd5be8a420c4cac918a252e39"
 
 [[files]]
+file = "config/config/NoChatReports/NCR-Client.json"
+hash = "4dd470b600ef5a9215990154700a6f49ec784e09e4eab50069f4b1b9ff37810c"
+
+[[files]]
+file = "config/config/NoChatReports/NCR-Common.json"
+hash = "0eaad2630bd70ade719f7810e805810ada25379269ea194e43d3eea30c51dec0"
+
+[[files]]
+file = "config/config/NoChatReports/NCR-ServerPreferences.json"
+hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
+
+[[files]]
+file = "config/config/NoChatReports/README.md"
+hash = "c52b76ccad2bd1063a22c7f6bb9e7c5db6b00fb53a6fd605585972ee0e5fc01f"
+
+[[files]]
+file = "config/config/bcc-common.json"
+hash = "4a1ae343dd0b667caedf52315b424f7698baeef34759d2e2b13a34e25f610df9"
+
+[[files]]
+file = "config/config/boatiview/client.toml"
+hash = "319ab349738524938d689e29c1d6ad4634a2dce2b1e876d35944b724de172d2c"
+
+[[files]]
+file = "config/config/c2me.toml"
+hash = "e5b176ef0f738b6f7bdbaef79be2f890385dacf600ad9749ca23fff17a8b0002"
+
+[[files]]
+file = "config/config/carryon-client.json"
+hash = "97e43d8f9a25af1ddd4b42314cc45ec04689c2c9a75a41551d0d03b92101f96b"
+
+[[files]]
+file = "config/config/carryon-common.json"
+hash = "74b9d51666b0d62091a153dfb44297839d7227131c17dd1b5f2b829481f2124c"
+
+[[files]]
+file = "config/config/chunky/config.json"
+hash = "27ccca9ff342fa09d4c7460e7858c78bdaad406cd5be8a420c4cac918a252e39"
+
+[[files]]
+file = "config/config/dynamic_fps.json"
+hash = "36ca45da8bea4ba8c2942ba68ff82205e5034e09c9e99b0a489129428971b2e4"
+
+[[files]]
+file = "config/config/entityculling.json"
+hash = "e92e6772c4b6ec28b9c179c80831d56d11fc65064591424a120133d397b2ab49"
+
+[[files]]
+file = "config/config/forgeconfigapiport.toml"
+hash = "2ba2d1b2585fea007f3db52468f72e1fad1a164973722ef526d23f1f4750acbf"
+
+[[files]]
+file = "config/config/iris.properties"
+hash = "1df6c73a222f42550a418b52aa2158afc56ffd09d91f0e4854a45aaae52c2adb"
+
+[[files]]
+file = "config/config/jade/hide-blocks.json"
+hash = "309df4ae96864c19eae41b646d58497c85a73b1fc3c584e772ef4d5822794baa"
+
+[[files]]
+file = "config/config/jade/hide-entities.json"
+hash = "3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709"
+
+[[files]]
+file = "config/config/jade/hide-mob-effects.json"
+hash = "085ae084a98180d4659ef60f9cf91281152a6e7b74a5a76c53f86e4f8f0d17f9"
+
+[[files]]
+file = "config/config/jade/jade.json"
+hash = "3fb18167e3bfa783ffee2e09318bf3eb9c8ae0b2312864c666aef903eb90e763"
+
+[[files]]
+file = "config/config/jade/profiles/1/jade.json"
+hash = "cbfd73b3fca363a1ff4289c276568f7f44a0689331713281db223c62c904784c"
+
+[[files]]
+file = "config/config/jade/profiles/2/jade.json"
+hash = "ba4cbb1dcfbd9e450b3f4548635b75a605de71e3594c5837b22eceb7bfbdb10d"
+
+[[files]]
+file = "config/config/jade/profiles/3/jade.json"
+hash = "13375babc224ab2fdb4966bc550cd2c9c63ee927331a96115b56c2a1715e9594"
+
+[[files]]
+file = "config/config/jade/server-plugin-overrides.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/config/jade/sort-order.json"
+hash = "f9e314e27a304488068b49ccd459b81993d9a45c8402be389a46907ec07267ed"
+
+[[files]]
+file = "config/config/jei/blacklist.json"
+hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
+
+[[files]]
+file = "config/config/jei/ingredient-list-mod-sort-order.ini"
+hash = "967829ac05650e88b93dcc09923ea7ecde712b947eb2144bd4776534f048ec28"
+
+[[files]]
+file = "config/config/jei/ingredient-list-type-sort-order.ini"
+hash = "aeb5f8cf099321e6bba5e4c3d13aaf0d7e25ea5c8904be2b12b63a892271e956"
+
+[[files]]
+file = "config/config/jei/jei-client.ini"
+hash = "97a8a01b2b68406b8d3541bd93dc63707f6e861a7e29a4ef0c4067f5ac59d5a4"
+
+[[files]]
+file = "config/config/jei/jei-colors.ini"
+hash = "e4bc0c5fce5a7536bce14c94b30e30482e65d63792b29db0ad59d4fa9eb4d1a5"
+
+[[files]]
+file = "config/config/jei/jei-debug.ini"
+hash = "5de3969a31149d8974d96bfebb8a1c160d6d5e93fd54fed8e95f6d8ea48427c3"
+
+[[files]]
+file = "config/config/jei/jei-mod-id-format.ini"
+hash = "2636e18fabeef53622ffae6127bdc7bfece1c21da6aad071735fbfe43563cfdb"
+
+[[files]]
+file = "config/config/jei/recipe-category-sort-order.ini"
+hash = "a11812047254ac26ad4bfde2d33b00a0e9684b555989e9dbd3b083c57162cd2d"
+
+[[files]]
+file = "config/config/legendarytooltips.toml"
+hash = "7a0667beb5d59096de3f79b825b8f5fa0aadf3b0d09b7e7a5970b44c98e05cfb"
+
+[[files]]
+file = "config/config/modmenu.json"
+hash = "37fa3cfeab279ebd1acd15b2c976951068dfba8ac3ad7d36fe676c39976dc366"
+
+[[files]]
+file = "config/config/moreculling.toml"
+hash = "a0b2444db1aa65997fd715d0c2a7753f5be302d1304364993260fb7489c1eddb"
+
+[[files]]
+file = "config/config/rightclickharvest.json5"
+hash = "50f46603904aeb8bede8cfe068ccafc246fea25111bcc02f87dc696736e1b3ae"
+
+[[files]]
+file = "config/config/rpg_series/loot_equipment_v2.json"
+hash = "d58d7598d47b898ef14874cc21c03614eb577474e236e8a86dbae2e21eb68643"
+
+[[files]]
+file = "config/config/rpg_series/loot_fallback_report.json"
+hash = "7cf5e831b0c5f3d7f39c5e3d35c9bc3fc09b5676e2d86279672ec565c53f978f"
+
+[[files]]
+file = "config/config/rpg_series/loot_scrolls_v2.json"
+hash = "6b812820a3996ecb9294f45c06159ceb93591e5f1bf023b791207695231b461b"
+
+[[files]]
+file = "config/config/rpg_series/tag_cache.json"
+hash = "8d50d749e8c7f9e5fcd4cc90e9aa612e2175fd8de233f0434d21fdfdf63fbc9a"
+
+[[files]]
+file = "config/config/sereneseasons/fertility.toml"
+hash = "722f7545a5a592f0aed25ae8dd0a4f53f7abaf0bb53da96417d87e9096e75631"
+
+[[files]]
+file = "config/config/sereneseasons/seasons.toml"
+hash = "857728a44173c7bbdce6f424ab254fceda3257d654a38c7e227de2c3271ca0d5"
+
+[[files]]
+file = "config/config/servercore/config.yml"
+hash = "a9db6231c85b1b8e1d461b07eaf51dde236b3573590ab8ec0821a69cfbac1424"
+
+[[files]]
+file = "config/config/servercore/optimizations.yml"
+hash = "b652ce75a0649d891aaa8351fb212801b8a15b701545760187032dfac24c00b9"
+
+[[files]]
+file = "config/config/sparsestructures.json5"
+hash = "08a3d57a5bdaf1b82f64feac5a6fcfd0b56dc932f3a73369a8bed84fa3326a04"
+
+[[files]]
+file = "config/config/spell_engine/client.json5"
+hash = "1300ced14472ea5968e6fd8a1b5497a595c30ae56e7956c53024a3f461f253d3"
+
+[[files]]
+file = "config/config/spell_engine/elemental_weaknesses.json"
+hash = "6979c988ceab84dfaca3aacb4c60cfe067987f6a323c8eaddb911ffa9a257219"
+
+[[files]]
+file = "config/config/spell_engine/hud_config.json"
+hash = "b3342d39bea6633b095b67dcb7d6fbccf07ea9ddd19116ea4ca2cd747861f318"
+
+[[files]]
+file = "config/config/spell_engine/server.json5"
+hash = "40f58c52b88cd6e232abd62b2eb60661017959f49fdb1487723d3bb7e0cbccc3"
+
+[[files]]
+file = "config/config/spell_engine/spell_container_templates_v2.json"
+hash = "acd0869d6cce36ffe7a6f44db42c7ad8aa66183d94d05a9740484da9766bb972"
+
+[[files]]
+file = "config/config/spell_engine/weapon_fallback.json"
+hash = "9962841ccc06487c97ec1d4bdac6a505fcbece925c978ff9b4e866f2ad6bab8d"
+
+[[files]]
+file = "config/config/spyglass-improvements/settings.json"
+hash = "3db29c40341e7c6bf3a4dafa04c736b9d273533a82e0c8d552ece0bc238b243c"
+
+[[files]]
+file = "config/config/structure_layout_optimizer.jsonc"
+hash = "f444999dd9a66b3fa806be94421bb7fe82fd898f91f3bf29a4aaab4e8f5cd95f"
+
+[[files]]
+file = "config/config/toughasnails/client.toml"
+hash = "641803fff6c7b2190752d423e38f9013467cfadf0c3dff4220370271d60ff2d0"
+
+[[files]]
+file = "config/config/toughasnails/temperature.toml"
+hash = "1cca4e53b4e29d32de95410e726f0500de80745ec194c9df0580c7d41c2471aa"
+
+[[files]]
+file = "config/config/toughasnails/thirst.toml"
+hash = "28ef5aec61b1cbdcba58bea6f62588295b10db143c0ffac0ae95fceebccbca0e"
+
+[[files]]
+file = "config/config/xaerohud.txt"
+hash = "cece60604b8de5e978141c981c1ed85227c8f30697a513869012b06dd15fcf02"
+
+[[files]]
+file = "config/config/zfastnoise.mixin.toml"
+hash = "9bc4c9b0e2d6ff045ffcb6a68b548ff60ada666fdcf06d55f011287c2b938bc3"
+
+[[files]]
 file = "config/cropsloverain.toml"
 hash = "7e628cdb0235f1456af5b4d05724f2af7c1adf6d659a40cf8ada69d483dcae73"
 
@@ -33,12 +265,20 @@ file = "config/dynamic_fps.json"
 hash = "36ca45da8bea4ba8c2942ba68ff82205e5034e09c9e99b0a489129428971b2e4"
 
 [[files]]
+file = "config/easymagic-server.toml"
+hash = "120c9f99684f0a40a4366116c057d226cd1e4b79f620268e17751ea166e6da79"
+
+[[files]]
 file = "config/enchdesc.json"
 hash = "0da071f8ff2d8b835f8e5ae294fa99bd5ac26e8cf6472cbf317acba451081f11"
 
 [[files]]
 file = "config/entityculling.json"
 hash = "e92e6772c4b6ec28b9c179c80831d56d11fc65064591424a120133d397b2ab49"
+
+[[files]]
+file = "config/farmersdelight-common.json"
+hash = "75d78e447f2bf94bd585171813e9d6cf7085eef60f52fbc6b10bc2eae9e0f59e"
 
 [[files]]
 file = "config/forgeconfigapiport.toml"
@@ -55,6 +295,10 @@ hash = "97a8a01b2b68406b8d3541bd93dc63707f6e861a7e29a4ef0c4067f5ac59d5a4"
 [[files]]
 file = "config/legendarytooltips.toml"
 hash = "7a0667beb5d59096de3f79b825b8f5fa0aadf3b0d09b7e7a5970b44c98e05cfb"
+
+[[files]]
+file = "config/modernfix-mixins.properties"
+hash = "4b65d36a9814de43ce786faf712174ea45fabf2586e2e66d27caa808c53686b4"
 
 [[files]]
 file = "config/modmenu.json"
@@ -113,12 +357,24 @@ file = "config/structure_layout_optimizer.jsonc"
 hash = "38aecacfc5bf22babfce25af032e4dfcaa07d45be7f4cef4127c714dd9156b66"
 
 [[files]]
+file = "config/tectonic.json"
+hash = "1e5382accb5374f49975a1c343421270f334c2f8812507e06b7916a8483d4df4"
+
+[[files]]
+file = "config/terralith.json"
+hash = "5dd4f902939c294f0e2bc728e0ba6ef81576e6858e631fb6bd28cd2634495f15"
+
+[[files]]
 file = "config/toughasnails/temperature.toml"
 hash = "5b6c16290ea8d0dc7bbabfb0c16183b5ee923997e1d226ea6f27f015b7176851"
 
 [[files]]
 file = "config/toughasnails/thirst.toml"
 hash = "0fd670da180a045f9669525f761b3a38054e23c3886250a6f57ca49c395fc901"
+
+[[files]]
+file = "config/waystones-common.toml"
+hash = "5da0e10a0cabf8a389d9d7035e1b7e8e0f3ef79269d47f0a5cdbc901ed7fa5ed"
 
 [[files]]
 file = "config/xaerohud.txt"
@@ -135,6 +391,10 @@ hash = "b317eebca4b559618fdfab00654abe556389369a81176b5638ade896af581400"
 [[files]]
 file = "configureddefaults/config/NoChatReports/NCR-Client.json"
 hash = "cea1c09dcd4b680d86e206260b46c0200f5cd0abf396d2b776552d01c46a2e01"
+
+[[files]]
+file = "configureddefaults/config/cardinal-components-api.properties"
+hash = "4d31f842c30e97c986147df4e872afe71ddcf0dd594000dbd841badc7a8eb975"
 
 [[files]]
 file = "configureddefaults/config/cwb.json"
@@ -222,11 +482,16 @@ hash = "0bec59102ca88bd9e6c7273a6c68eb24a1ffb3b9b74daefed65b6f10f7b81677"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "1b0bd1110657e7a1a9f8cf2cfec2059cfa1c95485d466bdd07cdac29d1600e50"
+hash = "0f36b923dfd68f1aaf293bca79ef1b0281817c8b6e7ccb2bcaa2b1bc620d59ab"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "9bc3807d34ba58c5fab2d5ebf1d795c1212b0706dabcdda16a7a3684c8973c1e"
+metafile = true
+
+[[files]]
+file = "mods/adorabuild-structures.pw.toml"
+hash = "6a3f815ddf1e3d5bf0f9c18687565451e39d7daaa363b1930c2bd5d3e7ea86e6"
 metafile = true
 
 [[files]]
@@ -265,6 +530,11 @@ hash = "0611870417199950928febebfc029d1f36f8d2888ef2bf509b51e10c6ee34a83"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "9a640cb6feb93c3c77e60bb6bd62a272a602e906817b4dd168099aaf0e130b4b"
+metafile = true
+
+[[files]]
 file = "mods/armor-model-api.pw.toml"
 hash = "ef24491a2687d6b94618622939b5a44d2f0147ece830a51f2974866a6520d8e0"
 metafile = true
@@ -290,8 +560,18 @@ hash = "dc3e6a29e5dd7a2a5d416dfb8a296d08acbe140697949cf8963f0dc4785c6ace"
 metafile = true
 
 [[files]]
+file = "mods/bclib.pw.toml"
+hash = "c4e43e1f4d5fcdb0931981897502ef40ded0e1f555826f53c145343fc764d18a"
+metafile = true
+
+[[files]]
 file = "mods/beautify-refabricated.pw.toml"
 hash = "3fdbdeda28c051b65c5dbec8aaeb4468450131c3d226d775813e2dea42d7612e"
+metafile = true
+
+[[files]]
+file = "mods/better-archeology.pw.toml"
+hash = "9050d0b078c89146d1c68455c8e18c89cbdbef2051fe9b720dfb222dd18acc30"
 metafile = true
 
 [[files]]
@@ -315,8 +595,18 @@ hash = "6e9bddf1d0b01deb875b99fda9395b7bf927ce1a795a70b5a1bd56500e43df03"
 metafile = true
 
 [[files]]
+file = "mods/betterend.pw.toml"
+hash = "45a24c494688e70402c73211bc9de2a07b4cdb71ca205a558409f044bb1112ec"
+metafile = true
+
+[[files]]
 file = "mods/bettergrassify.pw.toml"
 hash = "28c7599c8d0a72227dfeef91782e2e8faf2ad6339b30e9b5c846b28173cd32ff"
+metafile = true
+
+[[files]]
+file = "mods/betternether.pw.toml"
+hash = "914d58b508d18af76dd4508970c70dc92ace1e05fe2c878a422064bd5e507331"
 metafile = true
 
 [[files]]
@@ -332,6 +622,11 @@ metafile = true
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "9a79a3cace0eb7f75a158582e805fa8d44409441dee9e6bcc83085d378ae30d4"
+metafile = true
+
+[[files]]
+file = "mods/cardinal-components-api.pw.toml"
+hash = "b30b376356614d2607aa0112c6cfe4f7ad1e4ad27b9258139db684fe5c58b2c5"
 metafile = true
 
 [[files]]
@@ -400,6 +695,11 @@ hash = "7ef52ee07bd8eaaebe8ba3af73fee0b6eed30884e92282eed582c2cce7aee8d7"
 metafile = true
 
 [[files]]
+file = "mods/cristel-lib.pw.toml"
+hash = "81dc680eae06cdc29a93f95659ce7356c9202fac0aa3113796581deab8935f7e"
+metafile = true
+
+[[files]]
 file = "mods/critical-strike.pw.toml"
 hash = "5863a6b2a5659448fe64ebc63803353c9dd78f9b044c042b7649e1daa280f66f"
 metafile = true
@@ -432,6 +732,16 @@ metafile = true
 [[files]]
 file = "mods/delight-lib.pw.toml"
 hash = "998f43db75a7593f0628afeef8365bcad6ab94316988598b0d914930ccf076a2"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-woodland-mansion-overhaul.pw.toml"
+hash = "d2eaff6c7c090e99288189a98e522b6a02488158df6f158843bb93f85275d56a"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns.pw.toml"
+hash = "fe1901158f49cae71686a3519334607fccaa59e7dbb7b4f8fbbaab70d527a2c8"
 metafile = true
 
 [[files]]
@@ -475,6 +785,16 @@ hash = "8c25ebe6cc36fa8465954d0b3b447281be2345fdbaeb6ae55ad2835373a70667"
 metafile = true
 
 [[files]]
+file = "mods/explorations.pw.toml"
+hash = "2545d9c4937d5f75ca811b0e6c771cedc2eefee0f251d9f8213d75c759cdeaf4"
+metafile = true
+
+[[files]]
+file = "mods/explorify.pw.toml"
+hash = "6adce6422e74091638dbd7872270ee58d9a22dc18340580f809cc50c739e0d4f"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "37069be1c7d23b2fe463a98297d1f12eb8875f0d3be651a3a6cadc868752ab5a"
 metafile = true
@@ -515,13 +835,28 @@ hash = "8c91080e610d7c8c40ae6445d36af1cf591fe1ebf70718b3e6d4714232b23592"
 metafile = true
 
 [[files]]
+file = "mods/formations-nether.pw.toml"
+hash = "7d2556c288b12cef4a353656da58802a1882c3524b6eeccb8600615cf936e419"
+metafile = true
+
+[[files]]
+file = "mods/formations-overworld.pw.toml"
+hash = "ea2053f956f6d4e1fe1f33150178f49c8f0c84cc4d7bc73c5daffd347e0f8398"
+metafile = true
+
+[[files]]
+file = "mods/formations.pw.toml"
+hash = "8f07ce82b3a6c1dab2b23acb888977faa12dcd6272022752c7e7402ec5315740"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "d6d8aa0f220ddf366133ce02184e30c1d8204f7741da97040344ab53bb4b98ce"
 metafile = true
 
 [[files]]
-file = "mods/gazebos.pw.toml"
-hash = "58dfcc8d49b6010bbb100281bf1a10ae835d0908842794022c2e2ae0082003ac"
+file = "mods/geophilic.pw.toml"
+hash = "e56f8bbfe55aa00d09e341913cba870fb6218fba8df4a136f2443705982bce1f"
 metafile = true
 
 [[files]]
@@ -615,6 +950,11 @@ hash = "152bcded80cc8462cc14993fe5330ac3163ac728a2171fc2adca5f70a4e3aab3"
 metafile = true
 
 [[files]]
+file = "mods/library-ferret.pw.toml"
+hash = "264f69ceffa9b062ad4fe250ae40e5694dc0ff07f96c2d1044bb115df7ca5d88"
+metafile = true
+
+[[files]]
 file = "mods/lightweight-inventory-sorting.pw.toml"
 hash = "660cff485f411da3f17a46661e93738b27854dcd55d92f0f86df76724467156a"
 metafile = true
@@ -635,6 +975,16 @@ hash = "acd1212155bb96d96e07cfcf310f87be27b7981f7c68b8dca3db213e58585c5e"
 metafile = true
 
 [[files]]
+file = "mods/mes-moogs-end-structures.pw.toml"
+hash = "87bf8865ddcb032edde17591db3dd8af9d8c5bcf7431b9a89b9df2b02d994bc6"
+metafile = true
+
+[[files]]
+file = "mods/midnightlib.pw.toml"
+hash = "726410a43cf53b6da8d292c1e7d3267fb5f96832360d712a7cebc08cdcdeaee9"
+metafile = true
+
+[[files]]
 file = "mods/modernfix-mvus.pw.toml"
 hash = "ba528e27fc27b75a1997936bba35cf7d14c4d4d203aab5c067d5ec3ffcd0cfb6"
 metafile = true
@@ -642,6 +992,16 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "fa00f7dbf48bbcf6940248d3fd3629f43656c54006cc63d5560f9ca77ccd97a9"
+metafile = true
+
+[[files]]
+file = "mods/moogs-structure-lib.pw.toml"
+hash = "3eef61ee99a79b1c02c87f32d03039b3e2a7edd7da826b5661716e879fd5885e"
+metafile = true
+
+[[files]]
+file = "mods/moogs-voyager-structures.pw.toml"
+hash = "1601689ecfe1435bc4850ec77a7fd88212980ba2d3c2da441ca25a3a8044a011"
 metafile = true
 
 [[files]]
@@ -670,6 +1030,11 @@ hash = "4e91509d2ff2249690ad310dcc104df9163c8d6b0cfba4ccdff931b3c40ae995"
 metafile = true
 
 [[files]]
+file = "mods/mss-moogs-soaring-structures.pw.toml"
+hash = "8cd841c728c5b07e9b90fb65e57c67f3dd06e95bef570feb106ac2b191ded654"
+metafile = true
+
+[[files]]
 file = "mods/mutant-monsters.pw.toml"
 hash = "36434ae4530cf2026da2b7b9ee26771f3b1dc80a7a15617c796e8fd45c93bdb2"
 metafile = true
@@ -687,6 +1052,11 @@ metafile = true
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "68f5930c1212376b4b26a295c91dd5eb5c1157af1f95a18a5f8c06c4da7125cb"
+metafile = true
+
+[[files]]
+file = "mods/nullscape.pw.toml"
+hash = "7fe4184f4c7ced127e9e32d3f9940172260e1102b92c12d6489f65a4af9ae469"
 metafile = true
 
 [[files]]
@@ -785,6 +1155,21 @@ hash = "ea68d37e175eba6699d6b821c10f7a14059ea9bddd5d3820c009a4466fc2f303"
 metafile = true
 
 [[files]]
+file = "mods/remove-terralith-intro-message.pw.toml"
+hash = "2e9dead89853555c8d909fe2549af2db5e5051c690fae695df93d2369aa8314c"
+metafile = true
+
+[[files]]
+file = "mods/repurposed-structures-fabric.pw.toml"
+hash = "5a3c1e4d3ad5ac54042b9e822d70393d0ecd4a899fbfac2cb6a6ef95da45856c"
+metafile = true
+
+[[files]]
+file = "mods/repurposed-structures-farmers-delight-compat.pw.toml"
+hash = "8c5da27c1e330e76b2169a899e8b92f180b8408b40fe3ce23608104a938788f0"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "a8d92e3a2cf956cfa5932d3324a219729fe549fbcc3992c75b54d6b345178389"
 metafile = true
@@ -832,6 +1217,11 @@ metafile = true
 [[files]]
 file = "mods/servercore.pw.toml"
 hash = "43b4583ea1b8bc1dd8056086e4194c4f5e110a3359417c0ae9795b4f00c8529f"
+metafile = true
+
+[[files]]
+file = "mods/shogi.pw.toml"
+hash = "061cfd989b02ee4b11a8f2c482a8ad1db8e2bc827b06db597c4a45b3a23dd07a"
 metafile = true
 
 [[files]]
@@ -900,6 +1290,11 @@ hash = "313f6b60e2773171b75bc33c8beee71b14acd7239d6ab7c4f7f829a07c154d8d"
 metafile = true
 
 [[files]]
+file = "mods/structory.pw.toml"
+hash = "3c4da8a221086153d491104bba4fd8796dac92d5c3e0b2dc111a6c5d53b65484"
+metafile = true
+
+[[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
 hash = "0a492579cdfcaa2033d698315ce3b9c1959b10841e38e1a0bb874a9e648838f1"
 metafile = true
@@ -910,6 +1305,16 @@ hash = "f23688399c3f532c3246c63b0e715f8f53dce0b60f7e0e1ed70d2c6989d00d12"
 metafile = true
 
 [[files]]
+file = "mods/tectonic.pw.toml"
+hash = "70e40513d7eba0e7ad0897bdadc9b203febfb3b43662342bf5ca06e2c8be3c74"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "b1083983d7ac86c52c1bb1da749f132460c4ee9a8875e76c5244037fc1e0de73"
+metafile = true
+
+[[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "913a9ed18d059500adcd357899ddb18b9c80c0e55f44a0d44264fecc82a9f74e"
 metafile = true
@@ -917,6 +1322,16 @@ metafile = true
 [[files]]
 file = "mods/tough-as-nails.pw.toml"
 hash = "1544786be681afc0fd642587472a0455aa61cbe2ba1d42d891dc1d5bf4c8eefb"
+metafile = true
+
+[[files]]
+file = "mods/towns-and-towers.pw.toml"
+hash = "0c96b5bd496fefece5503443a3c0801d751f644df0ec33854838cf48ac28138c"
+metafile = true
+
+[[files]]
+file = "mods/trek.pw.toml"
+hash = "856519bd5d0f0736c86a2ebbc833b8499075be4b1d6613988f4e5104ba2d9a32"
 metafile = true
 
 [[files]]
@@ -935,11 +1350,6 @@ hash = "ba7ece5192ab86b7265e0cf7c30f5130bcd3f535e884724cfcc955f8a453c04e"
 metafile = true
 
 [[files]]
-file = "mods/village-taverns.pw.toml"
-hash = "8fd470ef64e16a13f8b5aaca631d5347bfc106e5f696824ce20f967d02de0486"
-metafile = true
-
-[[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "93e9e9d96cc2aceebf8625a7a893071f81011f54bf14e4ca802f4b41723184c0"
 metafile = true
@@ -955,8 +1365,18 @@ hash = "7040d8ce8a7c27ee10661dcc146450b38ab4829ff788530d4ff7ac4faec78678"
 metafile = true
 
 [[files]]
+file = "mods/waystones.pw.toml"
+hash = "d3a6b73a875a61d827f974af2426cce0762bdf1625d1b0d9ad0ac56112d34e4c"
+metafile = true
+
+[[files]]
 file = "mods/wizards.pw.toml"
 hash = "db97bf5694f305e7610ec8082def3ede7c4603cd8d0fbc3496cdb49e4fb95bf0"
+metafile = true
+
+[[files]]
+file = "mods/worldweaver.pw.toml"
+hash = "322223919cbb320c96046710beb9dd84e27c678dd938ddcfb38f304bb70e8518"
 metafile = true
 
 [[files]]
