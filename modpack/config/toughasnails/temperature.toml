@@ -1,0 +1,7 @@
+[general]
+	#Number of ticks to delay taking damage when icy or hot.
+	extremity_damage_delay = 400
+
+[immersion]
+	#Number of ticks a player stays wet for after touching water, rain or snow.
+	wet_ticks = 80

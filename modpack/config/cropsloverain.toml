@@ -1,0 +1,17 @@
+[general]
+	use_rain_growth_speed = true
+	#cropsloverain.configuration.chance_description
+	rain_growth_speed = 3
+
+[individual]
+	#cropsloverain.configuration.chance_description_individual
+	use_individual_speeds = true
+	bamboo_custom_speed = 2
+	cocoa_custom_speed = 3
+	crops_custom_speed = 4
+	sapling_custom_speed = 3
+	sugar_cane_custom_speed = 2
+	sweet_berry_custom_speed = 3
+	separate_stem_speed = true
+	melon_custom_speed = 3
+	pumpkin_custom_speed = 3

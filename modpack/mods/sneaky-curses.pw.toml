@@ -1,0 +1,13 @@
+name = "Sneaky Curses"
+filename = "SneakyCurses-v26.2.1-mc26.2.x-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TivKCwTx/versions/JKxK27rC/SneakyCurses-v26.2.1-mc26.2.x-Fabric.jar"
+hash-format = "sha512"
+hash = "ca280fc702d086d89f3b3967c580c7e732d2f81fd52ba1c6489414a6b02f2faeb36c7c323832941e631b6e2e86a0f8c62493d0037cf1309836c5f00de9c1873b"
+
+[update]
+[update.modrinth]
+mod-id = "TivKCwTx"
+version = "JKxK27rC"

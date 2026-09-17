@@ -1,0 +1,4 @@
+{
+  "//renderArms": "Arms should render on sides when carrying. Set to false if you experience issues with mods that replace the player model (like MoBends, etc)",
+  "renderArms": false
+}

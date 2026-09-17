@@ -1,0 +1,13 @@
+name = "Tom's Simple Storage Mod"
+filename = "toms_storage_fabric-26.2-2.11.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XZNI4Cpy/versions/V1KIQDWS/toms_storage_fabric-26.2-2.11.3.jar"
+hash-format = "sha512"
+hash = "da610ab2f79cbf3f894e01aa49ce7040806f3afc2630b115cfdbff5358af6323fe91eeba32e39728935ec5f9e5e9691e4c0077dd678cffd9ef775bf6001bf7e3"
+
+[update]
+[update.modrinth]
+mod-id = "XZNI4Cpy"
+version = "V1KIQDWS"

@@ -25,6 +25,39 @@
 ### Behavior
 | Mod Name | Environment |
 |---|:---:|
+| [Crops Love Rain](https://modrinth.com/mod/crops-love-rain) | Both |
+| [FallingTree](https://modrinth.com/mod/fallingtree) | Both |
+| [RightClickHarvest](https://modrinth.com/mod/rightclickharvest) | Both |
+| [Serene Seasons](https://modrinth.com/mod/serene-seasons) | Both |
+| [Sneaky Curses](https://modrinth.com/mod/sneaky-curses) | Both |
+| [Tough As Nails](https://modrinth.com/mod/tough-as-nails) | Both |
+
+### Cooking
+| Mod Name | Environment |
+|---|:---:|
+| [Chef's Delight - Farmer's Delight Villagers](https://modrinth.com/mod/chefs-delight) | Both |
+| [Farmer's Delight Refabricated](https://modrinth.com/mod/farmers-delight-refabricated) | Both |
+| [More Delight (for Farmer's Delight)](https://modrinth.com/mod/more-delight) | Both |
+
+### Utilities
+| Mod Name | Environment |
+|---|:---:|
+| [Animal Feeding Trough](https://modrinth.com/mod/animal_feeding_trough) | Both |
+| [Easy Anvils](https://modrinth.com/mod/easy-anvils) | Both |
+| [Easy Magic](https://modrinth.com/mod/easy-magic) | Both |
+| [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage) | Both |
+| [Vehicle Upgrade](https://modrinth.com/mod/vehicle-upgrade) | Both |
+| [Visual Workbench](https://modrinth.com/mod/visual-workbench) | Both |
+
+### Mobs
+| Mod Name | Environment |
+|---|:---:|
+| [ChoiceTheorem's Overhauled Village](https://modrinth.com/mod/ct-overhaul-village) | Both |
+| [Fish of Thieves](https://modrinth.com/mod/fish-of-thieves) | Both |
+| [Guard Villagers (Fabric/Quilt)](https://modrinth.com/mod/guard-villagers-(fabricquilt)) | Both |
+| [Illager Invasion](https://modrinth.com/mod/illager-invasion) | Both |
+| [Mutant Monsters](https://modrinth.com/mod/mutant-monsters) | Both |
+
 
 ------------------
 ## Worldgen
@@ -35,6 +68,7 @@
 | [Gazebos (RPG Series)](https://modrinth.com/mod/gazebos) | Both |
 | [Village Taverns (RPG Series)](https://modrinth.com/mod/village-taverns) | Both |
 
+
 ------------------
 ## Pretty
 
@@ -44,12 +78,17 @@
 | [3D Skin Layers](https://modrinth.com/mod/3dskinlayers) | Client |
 | [Continuity](https://modrinth.com/mod/continuity) | Client |
 | [Falling Leaves Plus](https://modrinth.com/mod/falling-leaves-plus) | Client |
-| [First-person Model](https://modrinth.com/mod/first-person-model) | Client |
+| [Particle Effects](https://modrinth.com/mod/particle-effects) | Client |
 | [Wavey Capes](https://modrinth.com/mod/wavey-capes) | Client |
 
 ### Decorations
 | Mod Name | Environment |
 |---|:---:|
+| [Beautify: Refabricated](https://modrinth.com/mod/beautify-refabricated) | Both |
+| [Comforts](https://modrinth.com/mod/comforts) | Both |
+| [Items Displayed [Fabric]](https://modrinth.com/mod/items-displayed) | Both |
+| [More Totems of Undying](https://modrinth.com/mod/more-totems-of-undying) | Both |
+| [Reconnectible Chains](https://modrinth.com/mod/reconnectible-chains) | Both |
 
 ### UI
 | Mod Name | Environment |
@@ -76,6 +115,7 @@
 | [Polytone](https://modrinth.com/mod/polytone) | Client |
 | [Puzzle](https://modrinth.com/mod/puzzle) | Client |
 
+
 ------------------
 ## Sound Improvement
 | Mod Name | Environment |
@@ -85,11 +125,40 @@
 | [Sound Physics Remastered](https://modrinth.com/mod/sound-physics-remastered) | Both |
 | [Sounds](https://modrinth.com/mod/sound) | Client |
 
+
 ------------------
 ## Functional
 | Mod Name | Environment |
 |---|:---:|
+| [Amecs](https://modrinth.com/mod/amecs) | Client |
+| [AppleSkin](https://modrinth.com/mod/appleskin) | Both |
+| [Armor Statues](https://modrinth.com/mod/armor-statues) | Both |
+| [Carry On](https://modrinth.com/mod/carry-on) | Both |
+| [Controlling](https://modrinth.com/mod/controlling) | Client |
+| [Crawl](https://modrinth.com/mod/crawl) | Both |
+| [Enchantment Descriptions](https://modrinth.com/mod/enchantment-descriptions) | Both |
+| [Jade 🔍](https://modrinth.com/mod/jade) | Both |
+| [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | Both |
+| [KleeSlabs](https://modrinth.com/mod/kleeslabs) | Both |
+| [Leave My Bars Alone](https://modrinth.com/mod/leave-my-bars-alone) | Client |
+| [Lightweight Inventory Sorting](https://modrinth.com/mod/lightweight-inventory-sorting) | Client |
 | [Mod Menu](https://modrinth.com/mod/modmenu) | Client |
+| [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks) | Client |
+| [Pick Up Notifier](https://modrinth.com/mod/pick-up-notifier) | Both |
+| [SeasonHud-Fabric](https://modrinth.com/mod/seasonhud-fabric) | Both |
+| [Spyglass Improvements](https://modrinth.com/mod/spyglass-improvements) | Both |
+| [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap) | Both |
+| [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map) | Both |
+| [XaeroPlus](https://modrinth.com/mod/xaeroplus) | Client |
+
+
+------------------
+## Helper
+| Mod Name | Environment |
+|---|:---:|
+| [Better Compatibility Checker](https://modrinth.com/mod/better-compatibility-checker) | Both |
+| [No Chat Reports](https://modrinth.com/mod/no-chat-reports) | Both |
+| [Unsafe World Random Access Detector](https://modrinth.com/mod/uwrad) | Both |
 
 ------------------
 ## Performance / Bugfixes
@@ -131,6 +200,7 @@
 | [Very Many Players (Fabric)](https://modrinth.com/mod/vmp-fabric) | Both |
 | [XXL Packets](https://modrinth.com/mod/xxl-packets) | Both |
 
+
 ------------------
 ## Library
 
@@ -145,7 +215,10 @@
 |---|:---:|
 | [Balm](https://modrinth.com/mod/balm) | Both |
 | [CreativeCore](https://modrinth.com/mod/creativecore) | Both |
+| [Delight Lib](https://modrinth.com/mod/delight-lib) | Both |
 | [Iceberg](https://modrinth.com/mod/iceberg) | Both |
+| [JamLib](https://modrinth.com/mod/jamlib) | Both |
+| [Lithostitched](https://modrinth.com/mod/lithostitched) | Both |
 | [MRU](https://modrinth.com/mod/mru) | Both |
 | [Puzzles Lib](https://modrinth.com/mod/puzzles-lib) | Both |
 | [Resourceful Lib](https://modrinth.com/mod/resourceful-lib) | Both |
@@ -155,7 +228,6 @@
 |---|:---:|
 | [Bundle API](https://modrinth.com/mod/bundle-api) | Both |
 | [Critical Strike](https://modrinth.com/mod/critical-strike) | Both |
-| [Not Enough Animations](https://modrinth.com/mod/not-enough-animations) | Client |
 | [Structure Pool API](https://modrinth.com/mod/structure-pool-api) | Both |
 
 ### Game Mechanics
@@ -189,62 +261,21 @@
 | [Searchables](https://modrinth.com/mod/searchables) | Client |
 | [Text Placeholder API](https://modrinth.com/mod/placeholder-api) | Both |
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ####################
 
-### Equipment
-
-| Mod Name | Environment |
-|---|:---:|
-| [Comforts](https://modrinth.com/mod/comforts) | Both |
-| [More Totems of Undying](https://modrinth.com/mod/more-totems-of-undying) | Both |
-
-### Adventures
-
-| Mod Name | Environment |
-|---|:---:|
-| [Endlock](https://modrinth.com/mod/endlock) | Both |
-| [Mutant Monsters](https://modrinth.com/mod/mutant-monsters) | Both |
-
-### Mobs
-
-| Mod Name | Environment |
-|---|:---:|
-| [ChoiceTheorem's Overhauled Village](https://modrinth.com/mod/ct-overhaul-village) | Both |
-| [Fish of Thieves](https://modrinth.com/mod/fish-of-thieves) | Both |
-| [Guard Villagers (Fabric/Quilt)](https://modrinth.com/mod/guard-villagers-(fabricquilt)) | Both |
-
-### Farming & Cooking
-
-| Mod Name | Environment |
-|---|:---:|
-| [Farmer's Delight Refabricated](https://modrinth.com/mod/farmers-delight-refabricated) | Both |
-
-### Decorations
-
-| Mod Name | Environment |
-|---|:---:|
-| [Beautify: Refabricated](https://modrinth.com/mod/beautify-refabricated) | Both |
-| [Items Displayed [Fabric]](https://modrinth.com/mod/items-displayed) | Both |
-
-### Behavior
-
-| Mod Name | Environment |
-|---|:---:|
-| [Carry On](https://modrinth.com/mod/carry-on) | Both |
-| [Crawl](https://modrinth.com/mod/crawl) | Both |
-| [FallingTree](https://modrinth.com/mod/fallingtree) | Both |
-| [Serene Seasons](https://modrinth.com/mod/serene-seasons) | Both |
-
-### Utilities
-
-| Mod Name | Environment |
-|---|:---:|
-| [Animal Feeding Trough](https://modrinth.com/mod/animal_feeding_trough) | Both |
-| [Easy Anvils](https://modrinth.com/mod/easy-anvils) | Both |
-| [Easy Magic](https://modrinth.com/mod/easy-magic) | Both |
-| [Gravestones](https://modrinth.com/mod/pneumono_gravestones) | Both |
-| [Tom's Simple Storage Mod](https://modrinth.com/mod/toms-storage) | Both |
-| [Visual Workbench](https://modrinth.com/mod/visual-workbench) | Both |
 
 ## Worldgen
 
@@ -289,37 +320,8 @@
 | [GlitchCore](https://modrinth.com/mod/glitchcore) | Both |
 | [Let Me Despawn](https://modrinth.com/mod/lmd) | Both |
 | [Moog's Structure Lib (moogs_structures)](https://modrinth.com/mod/moogs-structure-lib) | Both |
-| [Reconnectible Chains](https://modrinth.com/mod/reconnectible-chains) | Both |
 | [Remove Stardust Labs Intro Message](https://modrinth.com/mod/remove-terralith-intro-message) | Both |
-| [RightClickHarvest](https://modrinth.com/mod/rightclickharvest) | Both |
-| [SeasonHud-Fabric](https://modrinth.com/mod/seasonhud-fabric) | Both |
-| [Snow Under Trees (Fabric)](https://modrinth.com/mod/snow-under-trees-remastered) | Both |
 | [Structory](https://modrinth.com/mod/structory) | Both |
-| [Tough As Nails](https://modrinth.com/mod/tough-as-nails) | Both |
-
-## Functional
-
-| Mod Name | Environment |
-|---|:---:|
-| [Amecs](https://modrinth.com/mod/amecs) | Client |
-| [AppleSkin](https://modrinth.com/mod/appleskin) | Both |
-| [Better Compatibility Checker](https://modrinth.com/mod/better-compatibility-checker) | Both |
-| [Controlling](https://modrinth.com/mod/controlling) | Client |
-| [Enchantment Descriptions](https://modrinth.com/mod/enchantment-descriptions) | Both |
-| [Jade 🔍](https://modrinth.com/mod/jade) | Both |
-| [Just Enough Items (JEI)](https://modrinth.com/mod/jei) | Both |
-| [KleeSlabs](https://modrinth.com/mod/kleeslabs) | Both |
-| [Leave My Bars Alone](https://modrinth.com/mod/leave-my-bars-alone) | Client |
-| [Lightweight Inventory Sorting](https://modrinth.com/mod/lightweight-inventory-sorting) | Client |
-| [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks) | Client |
-| [No Chat Reports](https://modrinth.com/mod/no-chat-reports) | Both |
-| [Pick Up Notifier](https://modrinth.com/mod/pick-up-notifier) | Both |
-
-| [Spyglass Improvements](https://modrinth.com/mod/spyglass-improvements) | Both |
-| [Unsafe World Random Access Detector](https://modrinth.com/mod/uwrad) | Both |
-| [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap) | Both |
-| [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map) | Both |
-| [XaeroPlus](https://modrinth.com/mod/xaeroplus) | Client |
 
 ## Pretty
 | [Resource Pack Overrides](https://modrinth.com/mod/resource-pack-overrides) | Client |
@@ -360,8 +362,6 @@
 | [Collective](https://modrinth.com/mod/collective) | Both |
 | [Common Network](https://modrinth.com/mod/common-network) | Both |
 | [Cristel Lib](https://modrinth.com/mod/cristel-lib) | Both |
-| [JamLib](https://modrinth.com/mod/jamlib) | Both |
-| [Lithostitched](https://modrinth.com/mod/lithostitched) | Both |
 | [MidnightLib](https://modrinth.com/mod/midnightlib) | Both |
 | [oωo (owo-lib)](https://modrinth.com/mod/owo-lib) | Both |
 | [PneumonoCore](https://modrinth.com/mod/pneumono_core) | Both |

@@ -1,4 +1,4 @@
-name = "Monkey Modpack"
+name = "MonkeySMP"
 author = "Just Mango"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "78f0e53672764059b8f53989c6a54c5cc977aaca7bf746387ddd0222d0c37aab"
+hash = "608c0f0477d785442ae1bd18663f71f23eadc04b9ea8941a2def505e4bd4fae9"
 
 [versions]
 fabric = "0.19.5"

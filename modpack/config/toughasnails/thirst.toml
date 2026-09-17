@@ -1,0 +1,3 @@
+[general]
+	#The threshold at which exhaustion causes a reduction in hydration and the thirst bar.
+	exhaustion_threshold = 7.0

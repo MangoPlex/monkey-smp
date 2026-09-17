@@ -1,0 +1,12 @@
+{
+  "settings": {
+    "//scaleDistance": "Pickup distance scales with player reach",
+    "scaleDistance": false,
+    "//dropCarriedWhenHit": "Whether the player drops the carried object when hit or not",
+    "dropCarriedWhenHit": true,
+    "//stackableEntities": "Allows entities to be stacked on top of each other",
+    "stackableEntities": false,
+    "//pickupPlayers": "Whether Players can be picked up. Creative players can't be picked up in Survival Mode",
+    "pickupPlayers": false
+  }
+}
