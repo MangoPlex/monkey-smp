@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "tiered",
+	"version": "${version}",
+	"name": "Reforged",
+	"description": "Adds tiers to tools, weapons, armor and accessories. Vendored from https://github.com/Stereowalker/Reforged (latest-fabric).",
+	"authors": [
+		"Stereowalker",
+		"Draylar"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/tiered-forge",
+		"issues": "https://github.com/Stereowalker/Reforged/issues",
+		"sources": "https://github.com/Stereowalker/Reforged"
+	},
+	"license": "MIT",
+	"icon": "pack.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.stereowalker.reforged.Reforged"
+		],
+		"client": [
+			"com.stereowalker.reforged.Reforged"
+		]
+	},
+	"mixins": [
+		"tiered.mixins.json"
+	],
+	"accessWidener": "tiered.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*",
+		"unionlib": ">=13.0"
+	}
+}

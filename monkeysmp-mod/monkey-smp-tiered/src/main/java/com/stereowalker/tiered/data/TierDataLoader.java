@@ -1,0 +1,90 @@
+package com.stereowalker.tiered.data;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.stereowalker.tiered.api.AttributeTemplate;
+import com.stereowalker.tiered.api.PotentialAttribute;
+import com.stereowalker.tiered.gson.AccessoryGroupDeserializer;
+import com.stereowalker.tiered.gson.AccessorySlotDeserializer;
+import com.stereowalker.tiered.gson.EntityAttributeModifierDeserializer;
+import com.stereowalker.tiered.gson.EntityAttributeModifierSerializer;
+import com.stereowalker.tiered.gson.EquipmentSlotDeserializer;
+import com.stereowalker.tiered.gson.StyleSerializer;
+import com.stereowalker.unionlib.resource.ReloadListener;
+import com.stereowalker.unionlib.util.VersionHelper;
+import com.stereowalker.unionlib.world.entity.AccessorySlot;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import net.minecraft.network.chat.Style;
+import net.minecraft.resources.FileToIdConverter;
+import net.minecraft.resources.Identifier;
+import net.minecraft.server.packs.resources.ResourceManager;
+import net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener;
+import net.minecraft.util.profiling.ProfilerFiller;
+import net.minecraft.world.entity.EquipmentSlotGroup;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+
+public class TierDataLoader extends SimpleJsonResourceReloadListener<PotentialAttribute> implements ReloadListener {
+
+	public static final Gson GSON = new GsonBuilder()
+			.setPrettyPrinting()
+			.disableHtmlEscaping()
+			.registerTypeAdapter(AttributeModifier.class, new EntityAttributeModifierDeserializer())
+			.registerTypeAdapter(AttributeModifier.class, new EntityAttributeModifierSerializer())
+			.registerTypeAdapter(EquipmentSlotGroup.class, new EquipmentSlotDeserializer())
+			.registerTypeAdapter(AccessorySlot.class, new AccessorySlotDeserializer())
+			.registerTypeAdapter(AccessorySlot.Group.class, new AccessoryGroupDeserializer())
+			.registerTypeHierarchyAdapter(Style.class, new StyleSerializer())
+			.create();
+
+	private static final String PARSING_ERROR_MESSAGE = "Parsing error loading recipe {}";
+	private static final String LOADED_RECIPES_MESSAGE = "Loaded {} item tiers";
+	private static final Logger LOGGER = LoggerFactory.getLogger(TierDataLoader.class);
+
+	private Map<Identifier, PotentialAttribute> itemAttributes = new HashMap<>();
+
+	public TierDataLoader() {
+		super(PotentialAttribute.CODEC, FileToIdConverter.json("tiered_modifiers/tiers"));
+	}
+
+	@Override
+	protected void apply(Map<Identifier, PotentialAttribute> loader, ResourceManager manager, ProfilerFiller profiler) {
+		for (var attr : loader.entrySet()) {
+			List<AttributeTemplate> exists = new ArrayList<>();
+			for (var att : attr.getValue().getUnfilteredAttributes()) {
+				if (att.attributeExists(attr.getKey().toString())) exists.add(att);
+			}
+			attr.getValue().getAttributes().clear();
+			attr.getValue().getAttributes().addAll(exists);
+		}
+		itemAttributes.clear();
+		itemAttributes.putAll(loader);
+		LOGGER.info(LOADED_RECIPES_MESSAGE, loader.size());
+	}
+
+	/**
+	 * Returns a list of potential item attributes ({@link PotentialAttribute}) read from "data/modid/tiered_modifiers/tiers".
+	 *
+	 * @return  list of potential read item attributes
+	 */
+	public Map<Identifier, PotentialAttribute> getTiers() {
+		return itemAttributes;
+	}
+	public void clear() {
+		itemAttributes.clear();
+	}
+	public void replace(Map<Identifier, PotentialAttribute> i){
+		itemAttributes = i;
+	}
+
+	@Override
+	public Identifier id() {
+		return VersionHelper.toLoc("tiered", "data_loader");
+	}
+}

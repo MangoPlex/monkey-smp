@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"package": "com.stereowalker.tiered.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"AnvilMenuMixin",
+		"ItemStackMixin",
+		"ServerPlayerEntityMixin",
+		"unionlib.AccessoryStackCallsMixin"
+	],
+	"client": [
+		"ItemStackClientMixin",
+		"unionlib.AccessoryStackCallsClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

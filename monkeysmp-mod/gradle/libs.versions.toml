@@ -1,0 +1,39 @@
+[versions]
+loom = "1.17-SNAPSHOT"
+spotless = "8.5.1"
+
+minecraft = "26.2"
+fabric-loader = "0.19.5"
+fabric-api = "0.160.0+26.2"
+
+cloth-config = "26.2.155"
+travelers-backpack = "jp51VM8M"
+spell-engine = "GIHnkp7Z"
+unionlib = "26.2-13.3-Fabric"
+trinkets = "4.1.0+26.2"
+cca = "8.0.1"
+junit = "5.14.0"
+junit-platform = "1.14.0"
+
+[libraries]
+minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
+fabric-loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric-loader" }
+fabric-api = { module = "net.fabricmc.fabric-api:fabric-api", version.ref = "fabric-api" }
+
+cloth-config = { module = "me.shedaniel.cloth:cloth-config-fabric", version.ref = "cloth-config" }
+travelers-backpack = { module = "maven.modrinth:rlloIFEV", version.ref = "travelers-backpack" }
+spell-engine = { module = "maven.modrinth:XvoWJaA2", version.ref = "spell-engine" }
+unionlib = { module = "com.stereowalker.unionlib:UnionLib", version.ref = "unionlib" }
+trinkets = { module = "eu.pb4:trinkets", version.ref = "trinkets" }
+cca-base = { module = "org.ladysnake.cardinal-components-api:cardinal-components-base", version.ref = "cca" }
+cca-entity = { module = "org.ladysnake.cardinal-components-api:cardinal-components-entity", version.ref = "cca" }
+cca-level = { module = "org.ladysnake.cardinal-components-api:cardinal-components-level", version.ref = "cca" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit-platform" }
+
+[bundles]
+cca = [ "cca-base", "cca-entity", "cca-level" ]
+
+[plugins]
+fabric-loom = { id = "net.fabricmc.fabric-loom", version.ref = "loom" }
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }

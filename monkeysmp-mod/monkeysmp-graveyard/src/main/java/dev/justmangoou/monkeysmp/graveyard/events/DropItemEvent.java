@@ -1,0 +1,24 @@
+package dev.justmangoou.monkeysmp.graveyard.events;
+
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.item.ItemStack;
+
+import net.fabricmc.fabric.api.event.Event;
+import net.fabricmc.fabric.api.event.EventFactory;
+
+/**
+ * Here custom logic for item drops can be applied. If any items from any mod has a special drop function,
+ * this event can be used.
+ * Vanilla minecraft doesn't use this, but it exists if any mod wants to use it.
+ */
+public interface DropItemEvent {
+	Event<DropItemEvent> EVENT = EventFactory.createArrayBacked(DropItemEvent.class, dropItemEvents -> (stack, x, y, z, world) -> {
+		boolean allow = true;
+		for (DropItemEvent event : dropItemEvents) {
+			allow = allow && event.shouldDropItem(stack, x, y, z, world);
+		}
+		return allow;
+	});
+
+	boolean shouldDropItem(ItemStack stack, double x, double y, double z, ServerLevel world);
+}

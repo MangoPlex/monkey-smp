@@ -1,0 +1,9 @@
+// Tiered module. Vendors "Reforged" (Tiered) from https://github.com/Stereowalker/Reforged/tree/latest-fabric.
+// Requires the UnionLib mod at runtime; it is not bundled since it is shared cross-mod infrastructure.
+loom {
+	accessWidenerPath = file('src/main/resources/tiered.accesswidener')
+}
+
+dependencies {
+	compileOnly libs.unionlib
+}

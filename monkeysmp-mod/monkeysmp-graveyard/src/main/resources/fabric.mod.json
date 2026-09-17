@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "monkeysmp-graveyard",
+  "version": "${version}",
+  "name": "MonkeySMP Graveyard",
+  "description": "Adds graves and some other stuff to the game",
+  "authors": [
+    "b1n_ry",
+    "JustMango"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.justmangoou.monkeysmp.graveyard.MonkeySMPGraveyard"
+    ],
+    "client": [
+      "dev.justmangoou.monkeysmp.graveyard.client.MonkeySMPGraveyardClient"
+    ],
+    "cardinal-components": [ "dev.justmangoou.monkeysmp.graveyard.components.GraveyardComponents" ]
+  },
+  "mixins": [
+    "monkeysmp-graveyard.mixins.json"
+  ],
+
+  "custom": {
+    "cardinal-components": [
+      "monkeysmp-graveyard:player_data",
+      "monkeysmp-graveyard:graveyard_data"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "cardinal-components-base": ">=8.0.1",
+    "cardinal-components-entity": ">=8.0.1",
+    "cardinal-components-level": ">=8.0.1",
+    "cloth-config": "^26.2.155"
+  }
+}

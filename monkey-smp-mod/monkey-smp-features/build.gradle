@@ -1,4 +1,0 @@
-dependencies {
-	api project(':monkey-smp-core')
-	clientImplementation this.project(':monkey-smp-core').sourceSets.client.output
-}

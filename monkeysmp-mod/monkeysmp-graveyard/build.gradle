@@ -1,0 +1,15 @@
+dependencies {
+	implementation project(":monkeysmp-core")
+
+	implementation libs.cloth.config
+	implementation libs.trinkets
+	implementation libs.travelers.backpack
+	implementation libs.bundles.cca
+
+	testImplementation libs.junit.jupiter
+	testRuntimeOnly libs.junit.platform.launcher
+}
+
+tasks.named('test', Test) {
+	useJUnitPlatform()
+}

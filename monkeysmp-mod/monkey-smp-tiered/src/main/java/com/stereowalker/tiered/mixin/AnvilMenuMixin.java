@@ -1,0 +1,82 @@
+package com.stereowalker.tiered.mixin;
+
+import com.stereowalker.reforged.Reforged;
+import com.stereowalker.tiered.api.ModifierUtils;
+import com.stereowalker.tiered.api.PotentialAttribute;
+import com.stereowalker.unionlib.util.RegistryHelper;
+import com.stereowalker.unionlib.util.VersionHelper;
+import org.jspecify.annotations.Nullable;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.Redirect;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+import net.minecraft.resources.Identifier;
+import net.minecraft.world.Container;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.inventory.AnvilMenu;
+import net.minecraft.world.inventory.ContainerLevelAccess;
+import net.minecraft.world.inventory.ItemCombinerMenu;
+import net.minecraft.world.inventory.ItemCombinerMenuSlotDefinition;
+import net.minecraft.world.inventory.MenuType;
+import net.minecraft.world.item.ItemStack;
+
+@Mixin(AnvilMenu.class)
+public abstract class AnvilMenuMixin extends ItemCombinerMenu {
+	Identifier reforgedAttribute = null;
+
+
+	public AnvilMenuMixin(@Nullable MenuType<?> menuType, int containerId, Inventory inventory,
+			ContainerLevelAccess access, ItemCombinerMenuSlotDefinition itemInputSlots) {
+		super(menuType, containerId, inventory, access, itemInputSlots);
+	}
+
+
+	@Inject(method = "onTake", at =@At(value = "INVOKE", target = "Lnet/minecraft/world/Container;setItem(ILnet/minecraft/world/item/ItemStack;)V", ordinal = 0))
+	private void saveReforgedAttribute(Player p_150474_, ItemStack p_150475_, CallbackInfo ci) {
+		if (Reforged.hasModifier(this.inputSlots.getItem(0))) {
+			reforgedAttribute = Reforged.ComponentsRegistry.MODIFIER_D.getData(this.inputSlots.getItem(0));
+		}
+		else {
+			reforgedAttribute = null;
+		}
+	}
+
+	/**
+	 * This prevents the hammer from being deleted when a reforge is taking place
+	 */
+	@Redirect(method = "onTake", at =@At(value = "INVOKE", target = "Lnet/minecraft/world/Container;setItem(ILnet/minecraft/world/item/ItemStack;)V", ordinal = 3))
+	private void onTake_redirect(Container container, int pIndex, ItemStack pStack, Player p_150474_, ItemStack p_150475_) {
+		boolean deleteItem = true;
+		if (this.reforgedAttribute != null) {
+			PotentialAttribute potential = Reforged.TIER_DATA.getTiers().get(this.reforgedAttribute);
+			if (RegistryHelper.getItemKey(container.getItem(pIndex).getItem()).equals(VersionHelper.toLoc(potential.getReforgeItem()))) {
+				deleteItem = false;
+				ItemStack hammer = container.getItem(pIndex);
+				// attempt to get a random tier
+				Identifier potentialAttributeID = this.reforgedAttribute;
+				int i = 0;
+				while ((potentialAttributeID == ModifierUtils.BLANK || this.reforgedAttribute.equals(potentialAttributeID)) && i < 2) {
+					potentialAttributeID = ModifierUtils.getRandomAttributeIDFor(p_150475_.getItem());
+					i++;
+				}
+				// found an ID
+				if(potentialAttributeID != ModifierUtils.BLANK) {
+					Reforged.ComponentsRegistry.MODIFIER_D.setData(p_150475_, potentialAttributeID);
+				}
+				else {
+					Reforged.LOGGER.info("Failed to find an appropriate modifier for this item");
+				}
+
+				if ((hammer.getMaxDamage() - hammer.getDamageValue()) == potential.getReforgeDurabilityCost())
+					deleteItem = true;
+				else
+					hammer.setDamageValue(hammer.getDamageValue()+potential.getReforgeDurabilityCost());
+			}
+		}
+		if (deleteItem)
+			container.setItem(pIndex, pStack);
+	}
+}

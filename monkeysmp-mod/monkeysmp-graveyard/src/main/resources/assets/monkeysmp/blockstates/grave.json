@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "monkeysmp:block/grave", "y":  0 },
+    "facing=east":  { "model": "monkeysmp:block/grave", "y":  90 },
+    "facing=south": { "model": "monkeysmp:block/grave", "y": 180 },
+    "facing=west":  { "model": "monkeysmp:block/grave", "y": 270 }
+  }
+}

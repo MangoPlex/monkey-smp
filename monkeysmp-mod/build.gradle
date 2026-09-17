@@ -1,0 +1,144 @@
+plugins {
+	alias(libs.plugins.fabric.loom) apply false
+	alias(libs.plugins.spotless) apply false
+}
+
+allprojects {
+	apply plugin: 'java-library'
+	apply plugin: libs.plugins.fabric.loom.get().pluginId
+	apply plugin: libs.plugins.spotless.get().pluginId
+	apply plugin: 'maven-publish'
+
+	group = rootProject.group
+	version = rootProject.version
+
+	repositories {
+		mavenCentral()
+
+		exclusiveContent {
+			forRepository {
+				maven {
+					name = "Modrinth"
+					url = "https://api.modrinth.com/maven"
+				}
+			}
+			filter {
+				includeGroup "maven.modrinth"
+			}
+		}
+
+		maven { url 'https://jitpack.io' }
+		maven { url 'https://staging.alexiil.uk/maven/' }
+		maven { url 'https://modmaven.dev/' }
+		maven { url 'https://maven.shedaniel.me/' }
+		maven { url 'https://maven.su5ed.dev/releases' }
+		maven { url 'https://maven.terraformersmc.com/' }
+		maven { url 'https://maven.wispforest.io/releases/' }
+		maven { url 'https://maven.nucleoid.xyz/releases' }
+		maven { url 'https://maven.ladysnake.org/releases' }
+	}
+
+	base {
+		archivesName = project.name
+	}
+
+	java {
+		toolchain.languageVersion = JavaLanguageVersion.of(25)
+		withSourcesJar()
+	}
+
+	loom {
+		splitEnvironmentSourceSets()
+		runtimeOnlyLog4j = true
+		runs.configureEach {
+			preferGradleTask = true
+		}
+	}
+
+	dependencies {
+		minecraft libs.minecraft
+		implementation libs.fabric.loader
+		implementation libs.fabric.api
+	}
+
+	tasks.withType(JavaCompile).configureEach {
+		options.release = 25
+		options.compilerArgs << '-Xmaxerrs' << '10000'
+	}
+
+	tasks.withType(ProcessResources).configureEach {
+		inputs.property 'version', project.version
+		filesMatching('fabric.mod.json') {
+			expand 'version': inputs.properties.version
+		}
+	}
+
+	tasks.named('jar', Jar) {
+		def projectName = project.name
+		inputs.property 'projectName', projectName
+		from(rootProject.file('LICENSE')) {
+			rename { "${it}_${projectName}" }
+		}
+	}
+
+	spotless {
+		lineEndings = com.diffplug.spotless.LineEnding.UNIX
+		java {
+			removeUnusedImports()
+			importOrder('java', 'javax', '', 'net.minecraft', 'net.fabricmc')
+			leadingSpacesToTabs()
+			trimTrailingWhitespace()
+		}
+		json {
+			target 'src/**/lang/en_us.json'
+			targetExclude 'src/**/generated/**'
+			gson().indentWithSpaces(2).sortByKeys()
+		}
+	}
+}
+
+allprojects {
+	def currentProject = project
+	loom {
+		mods {
+			rootProject.allprojects.each { module ->
+				register(module.name) {
+					sourceSet module.sourceSets.main
+					sourceSet module.sourceSets.client
+				}
+			}
+		}
+		runs.configureEach {
+			ideConfigGenerated = currentProject == rootProject
+		}
+	}
+}
+
+// The root mod bundles every module; modules can also be published separately.
+dependencies {
+	subprojects.each { module ->
+		api project(module.path)
+		clientImplementation module.sourceSets.client.output
+		include project(module.path)
+	}
+}
+
+[
+	'build',
+	'assemble',
+	'check',
+	'clean'
+].each { taskName ->
+	tasks.named(taskName) {
+		dependsOn subprojects.collect { "${it.path}:${taskName}" }
+	}
+}
+
+spotless {
+	lineEndings = com.diffplug.spotless.LineEnding.UNIX
+	format('gradle') {
+		target '*.gradle', 'gradle/*.gradle'
+		trimTrailingWhitespace()
+		endWithNewline()
+	}
+}
